@@ -1,0 +1,17 @@
+{
+  "datasetId": "covenant-first",
+  "displayName": "卫戍协议：盟约",
+  "sourcePages": [
+    {
+      "url": "https://prts.wiki/w/%E5%8D%AB%E6%88%8D%E5%8D%8F%E8%AE%AE%EF%BC%9A%E7%9B%9F%E7%BA%A6/PRTS%E7%9B%9F%E7%BA%A6%E8%AE%B0%E5%BD%95",
+      "revisionId": 449018
+    }
+  ],
+  "fetchedAt": "2026-11-17T04:13:51.032927+00:00",
+  "parserVersion": "1.0",
+  "counts": {
+    "bonds": 18,
+    "operators": 96,
+    "missingAvatars": 96
+  }
+}

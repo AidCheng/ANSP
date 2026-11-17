@@ -1,0 +1,1532 @@
+[
+  {
+    "id": "cc8b48b08a0713c6",
+    "name": "隐现",
+    "tier": 1,
+    "prototypeName": null,
+    "avatarPath": null,
+    "coreBondIds": [
+      "68157a62f34cacc0"
+    ],
+    "additionalBondIds": [],
+    "traitType": "作战能力",
+    "normalTrait": "【拉特兰】每叠加5层，本干员攻击速度+1\n（※至多+200，且仅在每次部署时判定盟约层数）",
+    "eliteTrait": "【拉特兰】每叠加5层，本干员攻击速度+2\n（※至多+200，且仅在每次部署时判定盟约层数）",
+    "sourceUrl": "https://prts.wiki/w/%E5%8D%AB%E6%88%8D%E5%8D%8F%E8%AE%AE%EF%BC%9A%E7%9B%9F%E7%BA%A6/PRTS%E7%9B%9F%E7%BA%A6%E8%AE%B0%E5%BD%95"
+  },
+  {
+    "id": "6296c99d8460a93b",
+    "name": "讯使",
+    "tier": 1,
+    "prototypeName": null,
+    "avatarPath": null,
+    "coreBondIds": [
+      "74ee6ba0f38f7239"
+    ],
+    "additionalBondIds": [
+      "13f97cb5baa4b5cb"
+    ],
+    "traitType": "单次叠加",
+    "normalTrait": "<获得时>自身所属盟约层数+2（无需激活盟约）",
+    "eliteTrait": "<获得时>自身所属盟约层数+4（无需激活盟约）",
+    "sourceUrl": "https://prts.wiki/w/%E5%8D%AB%E6%88%8D%E5%8D%8F%E8%AE%AE%EF%BC%9A%E7%9B%9F%E7%BA%A6/PRTS%E7%9B%9F%E7%BA%A6%E8%AE%B0%E5%BD%95"
+  },
+  {
+    "id": "3ed7ae6b0b76d634",
+    "name": "惊蛰",
+    "tier": 1,
+    "prototypeName": "预备干员-术师(卫戍协议)",
+    "avatarPath": null,
+    "coreBondIds": [
+      "1fddc5a562ee1fbe"
+    ],
+    "additionalBondIds": [],
+    "traitType": "单次叠加",
+    "normalTrait": "<获得时>获得等于“当前调度中心等级”的【炎】层数（无需激活盟约）",
+    "eliteTrait": "<获得时>获得等于两倍的“当前调度中心等级”的【炎】层数（无需激活盟约）",
+    "sourceUrl": "https://prts.wiki/w/%E5%8D%AB%E6%88%8D%E5%8D%8F%E8%AE%AE%EF%BC%9A%E7%9B%9F%E7%BA%A6/PRTS%E7%9B%9F%E7%BA%A6%E8%AE%B0%E5%BD%95"
+  },
+  {
+    "id": "458738d3ce414f9b",
+    "name": "幽灵鲨",
+    "tier": 1,
+    "prototypeName": "预备干员-近卫(卫戍协议)",
+    "avatarPath": null,
+    "coreBondIds": [
+      "ed8adb775b1976c8"
+    ],
+    "additionalBondIds": [],
+    "traitType": "持续叠加",
+    "normalTrait": "<战斗中>自身被击倒时，使已激活的【阿戈尔】层数+2",
+    "eliteTrait": "<战斗中>自身被击倒时，使已激活的【阿戈尔】层数+4",
+    "sourceUrl": "https://prts.wiki/w/%E5%8D%AB%E6%88%8D%E5%8D%8F%E8%AE%AE%EF%BC%9A%E7%9B%9F%E7%BA%A6/PRTS%E7%9B%9F%E7%BA%A6%E8%AE%B0%E5%BD%95"
+  },
+  {
+    "id": "7afc078a848283bb",
+    "name": "红豆",
+    "tier": 1,
+    "prototypeName": "预备干员-先锋(卫戍协议)",
+    "avatarPath": null,
+    "coreBondIds": [],
+    "additionalBondIds": [
+      "13f97cb5baa4b5cb"
+    ],
+    "traitType": "整备能力",
+    "normalTrait": "购买价格为1",
+    "eliteTrait": null,
+    "sourceUrl": "https://prts.wiki/w/%E5%8D%AB%E6%88%8D%E5%8D%8F%E8%AE%AE%EF%BC%9A%E7%9B%9F%E7%BA%A6/PRTS%E7%9B%9F%E7%BA%A6%E8%AE%B0%E5%BD%95"
+  },
+  {
+    "id": "1ddc1ec80f407020",
+    "name": "梅",
+    "tier": 1,
+    "prototypeName": "预备干员-辅助(卫戍协议)",
+    "avatarPath": null,
+    "coreBondIds": [
+      "71be58c20db5e8e6"
+    ],
+    "additionalBondIds": [
+      "815e5f6dcb3dac13"
+    ],
+    "traitType": "单次叠加",
+    "normalTrait": "<获得时>自身所属盟约层数+2（无需激活盟约）",
+    "eliteTrait": "<获得时>自身所属盟约层数+4（无需激活盟约）",
+    "sourceUrl": "https://prts.wiki/w/%E5%8D%AB%E6%88%8D%E5%8D%8F%E8%AE%AE%EF%BC%9A%E7%9B%9F%E7%BA%A6/PRTS%E7%9B%9F%E7%BA%A6%E8%AE%B0%E5%BD%95"
+  },
+  {
+    "id": "75c9caca2140b362",
+    "name": "拉普兰德",
+    "tier": 1,
+    "prototypeName": "预备干员-狙击(卫戍协议)",
+    "avatarPath": null,
+    "coreBondIds": [],
+    "additionalBondIds": [
+      "3c75b25b30ac658f"
+    ],
+    "traitType": "作战能力",
+    "normalTrait": "<战斗中>造成的伤害变为弱点伤害（基于敌人的防御力和法术抗性变换物理和法术伤害）",
+    "eliteTrait": null,
+    "sourceUrl": "https://prts.wiki/w/%E5%8D%AB%E6%88%8D%E5%8D%8F%E8%AE%AE%EF%BC%9A%E7%9B%9F%E7%BA%A6/PRTS%E7%9B%9F%E7%BA%A6%E8%AE%B0%E5%BD%95"
+  },
+  {
+    "id": "234eb137e8bad919",
+    "name": "德克萨斯",
+    "tier": 1,
+    "prototypeName": null,
+    "avatarPath": null,
+    "coreBondIds": [],
+    "additionalBondIds": [
+      "758dc22908d4a313"
+    ],
+    "traitType": "作战能力",
+    "normalTrait": "<战斗中>造成的伤害变为弱点伤害（基于敌人的防御力和法术抗性变换物理和法术伤害）",
+    "eliteTrait": null,
+    "sourceUrl": "https://prts.wiki/w/%E5%8D%AB%E6%88%8D%E5%8D%8F%E8%AE%AE%EF%BC%9A%E7%9B%9F%E7%BA%A6/PRTS%E7%9B%9F%E7%BA%A6%E8%AE%B0%E5%BD%95"
+  },
+  {
+    "id": "75bc7855160c3585",
+    "name": "跃跃",
+    "tier": 1,
+    "prototypeName": null,
+    "avatarPath": null,
+    "coreBondIds": [],
+    "additionalBondIds": [
+      "815e5f6dcb3dac13"
+    ],
+    "traitType": "作战能力",
+    "normalTrait": "攻击无人机敌人时攻击力提升至150%",
+    "eliteTrait": "攻击无人机敌人时攻击力提升至200%",
+    "sourceUrl": "https://prts.wiki/w/%E5%8D%AB%E6%88%8D%E5%8D%8F%E8%AE%AE%EF%BC%9A%E7%9B%9F%E7%BA%A6/PRTS%E7%9B%9F%E7%BA%A6%E8%AE%B0%E5%BD%95"
+  },
+  {
+    "id": "f3e4ad76cb0eea32",
+    "name": "蛇屠箱",
+    "tier": 1,
+    "prototypeName": "预备干员-重装(卫戍协议)",
+    "avatarPath": null,
+    "coreBondIds": [],
+    "additionalBondIds": [
+      "cdeb08838442c081"
+    ],
+    "traitType": "持续叠加",
+    "normalTrait": "<休整期结束时>若同一行有至少3名干员，使已激活的【坚守】层数+3",
+    "eliteTrait": "<休整期结束时>若同一行有至少3名干员，使已激活的【坚守】层数+6",
+    "sourceUrl": "https://prts.wiki/w/%E5%8D%AB%E6%88%8D%E5%8D%8F%E8%AE%AE%EF%BC%9A%E7%9B%9F%E7%BA%A6/PRTS%E7%9B%9F%E7%BA%A6%E8%AE%B0%E5%BD%95"
+  },
+  {
+    "id": "ebb134e29745f4a3",
+    "name": "远山",
+    "tier": 1,
+    "prototypeName": "预备干员-医疗(卫戍协议)",
+    "avatarPath": null,
+    "coreBondIds": [],
+    "additionalBondIds": [
+      "7ffc44fb11135128",
+      "3d5ab1bf0b23dfde"
+    ],
+    "traitType": "单次叠加",
+    "normalTrait": "<获得时>自身所属盟约层数+2（无需激活盟约）",
+    "eliteTrait": "<获得时>自身所属盟约层数+4（无需激活盟约）",
+    "sourceUrl": "https://prts.wiki/w/%E5%8D%AB%E6%88%8D%E5%8D%8F%E8%AE%AE%EF%BC%9A%E7%9B%9F%E7%BA%A6/PRTS%E7%9B%9F%E7%BA%A6%E8%AE%B0%E5%BD%95"
+  },
+  {
+    "id": "3645cbffcccfeedf",
+    "name": "狮蝎",
+    "tier": 1,
+    "prototypeName": "预备干员-特种(卫戍协议)",
+    "avatarPath": null,
+    "coreBondIds": [
+      "0d216d3f3f67773b"
+    ],
+    "additionalBondIds": [
+      "7c519f93ee535d45"
+    ],
+    "traitType": "作战能力",
+    "normalTrait": "技力自然恢复速度+0.15/秒",
+    "eliteTrait": "技力自然恢复速度+0.3/秒",
+    "sourceUrl": "https://prts.wiki/w/%E5%8D%AB%E6%88%8D%E5%8D%8F%E8%AE%AE%EF%BC%9A%E7%9B%9F%E7%BA%A6/PRTS%E7%9B%9F%E7%BA%A6%E8%AE%B0%E5%BD%95"
+  },
+  {
+    "id": "fcb9d3448dbcadd2",
+    "name": "暴行",
+    "tier": 1,
+    "prototypeName": null,
+    "avatarPath": null,
+    "coreBondIds": [],
+    "additionalBondIds": [
+      "7127b4d3dd34ca35"
+    ],
+    "traitType": "整备能力",
+    "normalTrait": "<售出时>进入下个休整期额外获得1资金",
+    "eliteTrait": "<售出时>进入下个休整期额外获得2资金",
+    "sourceUrl": "https://prts.wiki/w/%E5%8D%AB%E6%88%8D%E5%8D%8F%E8%AE%AE%EF%BC%9A%E7%9B%9F%E7%BA%A6/PRTS%E7%9B%9F%E7%BA%A6%E8%AE%B0%E5%BD%95"
+  },
+  {
+    "id": "cac67923a5db82d5",
+    "name": "布丁",
+    "tier": 1,
+    "prototypeName": null,
+    "avatarPath": null,
+    "coreBondIds": [],
+    "additionalBondIds": [
+      "ff1d8cb95582c06e"
+    ],
+    "traitType": "单次叠加",
+    "normalTrait": "<获得时>自身所属盟约层数+3（无需激活盟约）",
+    "eliteTrait": "<获得时>自身所属盟约层数+6（无需激活盟约）",
+    "sourceUrl": "https://prts.wiki/w/%E5%8D%AB%E6%88%8D%E5%8D%8F%E8%AE%AE%EF%BC%9A%E7%9B%9F%E7%BA%A6/PRTS%E7%9B%9F%E7%BA%A6%E8%AE%B0%E5%BD%95"
+  },
+  {
+    "id": "684d8137f07e2cf1",
+    "name": "盟约·辅助干员",
+    "tier": 1,
+    "prototypeName": null,
+    "avatarPath": null,
+    "coreBondIds": [],
+    "additionalBondIds": [
+      "e440f765e809fcc4",
+      "3c75b25b30ac658f"
+    ],
+    "traitType": "作战能力",
+    "normalTrait": "攻击力和生命值+20%",
+    "eliteTrait": "攻击力和生命值+40%",
+    "sourceUrl": "https://prts.wiki/w/%E5%8D%AB%E6%88%8D%E5%8D%8F%E8%AE%AE%EF%BC%9A%E7%9B%9F%E7%BA%A6/PRTS%E7%9B%9F%E7%BA%A6%E8%AE%B0%E5%BD%95"
+  },
+  {
+    "id": "2021105ceed183c7",
+    "name": "送葬人",
+    "tier": 2,
+    "prototypeName": "预备干员-狙击(卫戍协议)",
+    "avatarPath": null,
+    "coreBondIds": [
+      "68157a62f34cacc0"
+    ],
+    "additionalBondIds": [
+      "815e5f6dcb3dac13"
+    ],
+    "traitType": "持续叠加",
+    "normalTrait": "<战斗中>身前一格的干员每消耗7发弹药，使已激活的【拉特兰】层数+1",
+    "eliteTrait": "<战斗中>身前一格的干员每消耗7发弹药，使已激活的【拉特兰】层数+2",
+    "sourceUrl": "https://prts.wiki/w/%E5%8D%AB%E6%88%8D%E5%8D%8F%E8%AE%AE%EF%BC%9A%E7%9B%9F%E7%BA%A6/PRTS%E7%9B%9F%E7%BA%A6%E8%AE%B0%E5%BD%95"
+  },
+  {
+    "id": "22746af9a69af4f0",
+    "name": "赫默",
+    "tier": 2,
+    "prototypeName": "预备干员-医疗(卫戍协议)",
+    "avatarPath": null,
+    "coreBondIds": [],
+    "additionalBondIds": [
+      "7ffc44fb11135128"
+    ],
+    "traitType": "持续叠加",
+    "normalTrait": "<进入休整期时>使自身已激活的盟约层数+2",
+    "eliteTrait": "<进入休整期时>使自身已激活的盟约层数+4",
+    "sourceUrl": "https://prts.wiki/w/%E5%8D%AB%E6%88%8D%E5%8D%8F%E8%AE%AE%EF%BC%9A%E7%9B%9F%E7%BA%A6/PRTS%E7%9B%9F%E7%BA%A6%E8%AE%B0%E5%BD%95"
+  },
+  {
+    "id": "3a6de97e04077f86",
+    "name": "角峰",
+    "tier": 2,
+    "prototypeName": "预备干员-重装(卫戍协议)",
+    "avatarPath": null,
+    "coreBondIds": [
+      "74ee6ba0f38f7239"
+    ],
+    "additionalBondIds": [
+      "cdeb08838442c081"
+    ],
+    "traitType": "单次叠加",
+    "normalTrait": "<获得时>自身所属盟约层数+3（无需激活盟约）",
+    "eliteTrait": "<获得时>自身所属盟约层数+6（无需激活盟约）",
+    "sourceUrl": "https://prts.wiki/w/%E5%8D%AB%E6%88%8D%E5%8D%8F%E8%AE%AE%EF%BC%9A%E7%9B%9F%E7%BA%A6/PRTS%E7%9B%9F%E7%BA%A6%E8%AE%B0%E5%BD%95"
+  },
+  {
+    "id": "42c1515a80e74452",
+    "name": "万顷",
+    "tier": 2,
+    "prototypeName": null,
+    "avatarPath": null,
+    "coreBondIds": [
+      "1fddc5a562ee1fbe"
+    ],
+    "additionalBondIds": [],
+    "traitType": "持续叠加",
+    "normalTrait": "<休整期结束时>本回合每获得过1名干员，使已激活的【炎】层数+1",
+    "eliteTrait": "<休整期结束时>本回合每获得过1名干员，使已激活的【炎】层数+2",
+    "sourceUrl": "https://prts.wiki/w/%E5%8D%AB%E6%88%8D%E5%8D%8F%E8%AE%AE%EF%BC%9A%E7%9B%9F%E7%BA%A6/PRTS%E7%9B%9F%E7%BA%A6%E8%AE%B0%E5%BD%95"
+  },
+  {
+    "id": "073fc0d8468aaaa3",
+    "name": "哈洛德",
+    "tier": 2,
+    "prototypeName": null,
+    "avatarPath": null,
+    "coreBondIds": [
+      "71be58c20db5e8e6",
+      "74ee6ba0f38f7239"
+    ],
+    "additionalBondIds": [],
+    "traitType": "整备能力",
+    "normalTrait": "<获得时>使下个休整期额外获得1资金",
+    "eliteTrait": "<获得时>使下个休整期额外获得2资金",
+    "sourceUrl": "https://prts.wiki/w/%E5%8D%AB%E6%88%8D%E5%8D%8F%E8%AE%AE%EF%BC%9A%E7%9B%9F%E7%BA%A6/PRTS%E7%9B%9F%E7%BA%A6%E8%AE%B0%E5%BD%95"
+  },
+  {
+    "id": "7036000e47d2c670",
+    "name": "莎草",
+    "tier": 2,
+    "prototypeName": null,
+    "avatarPath": null,
+    "coreBondIds": [
+      "0d216d3f3f67773b"
+    ],
+    "additionalBondIds": [],
+    "traitType": "持续叠加",
+    "normalTrait": "<战斗中>首次开启技能时，使已激活的【萨尔贡】层数+4",
+    "eliteTrait": "<战斗中>首次开启技能时，使已激活的【萨尔贡】层数+8",
+    "sourceUrl": "https://prts.wiki/w/%E5%8D%AB%E6%88%8D%E5%8D%8F%E8%AE%AE%EF%BC%9A%E7%9B%9F%E7%BA%A6/PRTS%E7%9B%9F%E7%BA%A6%E8%AE%B0%E5%BD%95"
+  },
+  {
+    "id": "54b1a59be5486fc0",
+    "name": "深巡",
+    "tier": 2,
+    "prototypeName": null,
+    "avatarPath": null,
+    "coreBondIds": [
+      "ed8adb775b1976c8"
+    ],
+    "additionalBondIds": [],
+    "traitType": "作战能力",
+    "normalTrait": "攻击海怪敌人时攻击力提升至150%",
+    "eliteTrait": "攻击海怪敌人时攻击力提升至200%",
+    "sourceUrl": "https://prts.wiki/w/%E5%8D%AB%E6%88%8D%E5%8D%8F%E8%AE%AE%EF%BC%9A%E7%9B%9F%E7%BA%A6/PRTS%E7%9B%9F%E7%BA%A6%E8%AE%B0%E5%BD%95"
+  },
+  {
+    "id": "bf14dce3b96309ee",
+    "name": "暴雨",
+    "tier": 2,
+    "prototypeName": null,
+    "avatarPath": null,
+    "coreBondIds": [
+      "0d216d3f3f67773b"
+    ],
+    "additionalBondIds": [
+      "cdeb08838442c081"
+    ],
+    "traitType": "作战能力",
+    "normalTrait": "【萨尔贡】和【坚守】每叠加3层，本干员防御力+1%\n（※仅在每次部署时判定盟约层数）",
+    "eliteTrait": "【萨尔贡】和【坚守】每叠加3层，本干员防御力+2%\n（※仅在每次部署时判定盟约层数）",
+    "sourceUrl": "https://prts.wiki/w/%E5%8D%AB%E6%88%8D%E5%8D%8F%E8%AE%AE%EF%BC%9A%E7%9B%9F%E7%BA%A6/PRTS%E7%9B%9F%E7%BA%A6%E8%AE%B0%E5%BD%95"
+  },
+  {
+    "id": "0cc3ed3a74fe40ca",
+    "name": "宴",
+    "tier": 2,
+    "prototypeName": "预备干员-先锋(卫戍协议)",
+    "avatarPath": null,
+    "coreBondIds": [],
+    "additionalBondIds": [
+      "7c519f93ee535d45",
+      "7127b4d3dd34ca35"
+    ],
+    "traitType": "持续叠加",
+    "normalTrait": "<战斗中>每击倒1名敌人时，使已激活的【突袭】层数+1",
+    "eliteTrait": "<战斗中>每击倒1名敌人时，使已激活的【突袭】层数+2",
+    "sourceUrl": "https://prts.wiki/w/%E5%8D%AB%E6%88%8D%E5%8D%8F%E8%AE%AE%EF%BC%9A%E7%9B%9F%E7%BA%A6/PRTS%E7%9B%9F%E7%BA%A6%E8%AE%B0%E5%BD%95"
+  },
+  {
+    "id": "add6a0e81a644d6b",
+    "name": "洛洛",
+    "tier": 2,
+    "prototypeName": "预备干员-术师(卫戍协议)",
+    "avatarPath": null,
+    "coreBondIds": [
+      "71be58c20db5e8e6"
+    ],
+    "additionalBondIds": [
+      "ff1d8cb95582c06e"
+    ],
+    "traitType": "整备能力",
+    "normalTrait": "<获得时>随机制造1件洛洛的定制品",
+    "eliteTrait": "<获得时>随机制造2件洛洛的定制品",
+    "sourceUrl": "https://prts.wiki/w/%E5%8D%AB%E6%88%8D%E5%8D%8F%E8%AE%AE%EF%BC%9A%E7%9B%9F%E7%BA%A6/PRTS%E7%9B%9F%E7%BA%A6%E8%AE%B0%E5%BD%95"
+  },
+  {
+    "id": "6d0b0f9a9ed8169a",
+    "name": "风丸",
+    "tier": 2,
+    "prototypeName": "预备干员-近卫(卫戍协议)",
+    "avatarPath": null,
+    "coreBondIds": [],
+    "additionalBondIds": [
+      "3d5ab1bf0b23dfde",
+      "13f97cb5baa4b5cb"
+    ],
+    "traitType": "作战能力",
+    "normalTrait": "只需2个相同的本干员即可合成精锐",
+    "eliteTrait": null,
+    "sourceUrl": "https://prts.wiki/w/%E5%8D%AB%E6%88%8D%E5%8D%8F%E8%AE%AE%EF%BC%9A%E7%9B%9F%E7%BA%A6/PRTS%E7%9B%9F%E7%BA%A6%E8%AE%B0%E5%BD%95"
+  },
+  {
+    "id": "fea7edf38d3c0fc5",
+    "name": "砾",
+    "tier": 2,
+    "prototypeName": "预备干员-特种(卫戍协议)",
+    "avatarPath": null,
+    "coreBondIds": [],
+    "additionalBondIds": [
+      "7c519f93ee535d45",
+      "13f97cb5baa4b5cb"
+    ],
+    "traitType": "持续叠加",
+    "normalTrait": "<战斗中>自身被击倒时，使已激活的【不屈】层数+3",
+    "eliteTrait": "<战斗中>自身被击倒时，使已激活的【不屈】层数+6",
+    "sourceUrl": "https://prts.wiki/w/%E5%8D%AB%E6%88%8D%E5%8D%8F%E8%AE%AE%EF%BC%9A%E7%9B%9F%E7%BA%A6/PRTS%E7%9B%9F%E7%BA%A6%E8%AE%B0%E5%BD%95"
+  },
+  {
+    "id": "a5dfe8e2052b1a59",
+    "name": "锡人",
+    "tier": 2,
+    "prototypeName": null,
+    "avatarPath": null,
+    "coreBondIds": [],
+    "additionalBondIds": [
+      "758dc22908d4a313",
+      "ff1d8cb95582c06e"
+    ],
+    "traitType": "持续叠加",
+    "normalTrait": "<进入休整期时>使自身已激活的盟约层数+2",
+    "eliteTrait": "<进入休整期时>使自身已激活的盟约层数+4",
+    "sourceUrl": "https://prts.wiki/w/%E5%8D%AB%E6%88%8D%E5%8D%8F%E8%AE%AE%EF%BC%9A%E7%9B%9F%E7%BA%A6/PRTS%E7%9B%9F%E7%BA%A6%E8%AE%B0%E5%BD%95"
+  },
+  {
+    "id": "6594ebcb14a50c07",
+    "name": "锡兰",
+    "tier": 2,
+    "prototypeName": null,
+    "avatarPath": null,
+    "coreBondIds": [],
+    "additionalBondIds": [
+      "7127b4d3dd34ca35"
+    ],
+    "traitType": "持续叠加",
+    "normalTrait": "<休整期结束时>当前激活且层数最多的盟约层数+2，此干员在整备区时也有效",
+    "eliteTrait": "<休整期结束时>当前激活且层数最多的盟约层数+4，此干员在整备区时也有效",
+    "sourceUrl": "https://prts.wiki/w/%E5%8D%AB%E6%88%8D%E5%8D%8F%E8%AE%AE%EF%BC%9A%E7%9B%9F%E7%BA%A6/PRTS%E7%9B%9F%E7%BA%A6%E8%AE%B0%E5%BD%95"
+  },
+  {
+    "id": "3ea303a3c7f00817",
+    "name": "芳汀",
+    "tier": 2,
+    "prototypeName": "预备干员-辅助(卫戍协议)",
+    "avatarPath": null,
+    "coreBondIds": [
+      "68157a62f34cacc0"
+    ],
+    "additionalBondIds": [],
+    "traitType": "作战能力",
+    "normalTrait": "攻击无人机敌人时攻击力提升至150%",
+    "eliteTrait": "攻击无人机敌人时攻击力提升至200%",
+    "sourceUrl": "https://prts.wiki/w/%E5%8D%AB%E6%88%8D%E5%8D%8F%E8%AE%AE%EF%BC%9A%E7%9B%9F%E7%BA%A6/PRTS%E7%9B%9F%E7%BA%A6%E8%AE%B0%E5%BD%95"
+  },
+  {
+    "id": "f00324c479add217",
+    "name": "能天使",
+    "tier": 3,
+    "prototypeName": "预备干员-狙击(卫戍协议)",
+    "avatarPath": null,
+    "coreBondIds": [
+      "68157a62f34cacc0"
+    ],
+    "additionalBondIds": [
+      "3d5ab1bf0b23dfde"
+    ],
+    "traitType": "整备能力",
+    "normalTrait": "<获得时>使下个休整期额外获得1资金",
+    "eliteTrait": "<获得时>使下个休整期额外获得2资金",
+    "sourceUrl": "https://prts.wiki/w/%E5%8D%AB%E6%88%8D%E5%8D%8F%E8%AE%AE%EF%BC%9A%E7%9B%9F%E7%BA%A6/PRTS%E7%9B%9F%E7%BA%A6%E8%AE%B0%E5%BD%95"
+  },
+  {
+    "id": "adeeef0ed7e90979",
+    "name": "极光",
+    "tier": 3,
+    "prototypeName": "预备干员-重装(卫戍协议)",
+    "avatarPath": null,
+    "coreBondIds": [
+      "74ee6ba0f38f7239"
+    ],
+    "additionalBondIds": [],
+    "traitType": "持续叠加",
+    "normalTrait": "<战斗中>每当范围内1名敌人进入冻结时，回复数次1.5%最大生命值",
+    "eliteTrait": "<战斗中>每当范围内1名敌人进入冻结时，回复数次2.5%最大生命值",
+    "sourceUrl": "https://prts.wiki/w/%E5%8D%AB%E6%88%8D%E5%8D%8F%E8%AE%AE%EF%BC%9A%E7%9B%9F%E7%BA%A6/PRTS%E7%9B%9F%E7%BA%A6%E8%AE%B0%E5%BD%95"
+  },
+  {
+    "id": "f14f057578cb204b",
+    "name": "槐琥",
+    "tier": 3,
+    "prototypeName": "预备干员-特种(卫戍协议)",
+    "avatarPath": null,
+    "coreBondIds": [
+      "1fddc5a562ee1fbe"
+    ],
+    "additionalBondIds": [
+      "13f97cb5baa4b5cb"
+    ],
+    "traitType": "单次叠加",
+    "normalTrait": "<获得时>当前已激活且层数最多的盟约层数+3",
+    "eliteTrait": "<获得时>当前已激活且层数最多的盟约层数+6",
+    "sourceUrl": "https://prts.wiki/w/%E5%8D%AB%E6%88%8D%E5%8D%8F%E8%AE%AE%EF%BC%9A%E7%9B%9F%E7%BA%A6/PRTS%E7%9B%9F%E7%BA%A6%E8%AE%B0%E5%BD%95"
+  },
+  {
+    "id": "57eea03a15155ec9",
+    "name": "琳琅诗怀雅",
+    "tier": 3,
+    "prototypeName": "预备干员-医疗(卫戍协议)",
+    "avatarPath": null,
+    "coreBondIds": [
+      "1fddc5a562ee1fbe"
+    ],
+    "additionalBondIds": [
+      "3ede97245872e27c"
+    ],
+    "traitType": "整备能力",
+    "normalTrait": "<休整期结束时>使下个休整期额外获得1资金（若已激活【炎】/【投资人】此特质在整备区也有效）",
+    "eliteTrait": "<休整期结束时>使下个休整期额外获得2资金（若已激活【炎】/【投资人】此特质在整备区也有效）",
+    "sourceUrl": "https://prts.wiki/w/%E5%8D%AB%E6%88%8D%E5%8D%8F%E8%AE%AE%EF%BC%9A%E7%9B%9F%E7%BA%A6/PRTS%E7%9B%9F%E7%BA%A6%E8%AE%B0%E5%BD%95"
+  },
+  {
+    "id": "955e4a1d43503dbd",
+    "name": "斯卡蒂",
+    "tier": 3,
+    "prototypeName": "预备干员-近卫(卫戍协议)",
+    "avatarPath": null,
+    "coreBondIds": [
+      "ed8adb775b1976c8"
+    ],
+    "additionalBondIds": [
+      "cdeb08838442c081",
+      "7c519f93ee535d45"
+    ],
+    "traitType": "持续叠加",
+    "normalTrait": "<战斗中>每击倒3名单位时，使已激活的【阿戈尔】【坚守】【突袭】层数+1",
+    "eliteTrait": "<战斗中>每击倒3名敌人时，使已激活的【阿戈尔】【坚守】【突袭】层数+2",
+    "sourceUrl": "https://prts.wiki/w/%E5%8D%AB%E6%88%8D%E5%8D%8F%E8%AE%AE%EF%BC%9A%E7%9B%9F%E7%BA%A6/PRTS%E7%9B%9F%E7%BA%A6%E8%AE%B0%E5%BD%95"
+  },
+  {
+    "id": "2e679ac53e86fc3b",
+    "name": "菲莱",
+    "tier": 3,
+    "prototypeName": null,
+    "avatarPath": null,
+    "coreBondIds": [
+      "0d216d3f3f67773b"
+    ],
+    "additionalBondIds": [],
+    "traitType": "持续叠加",
+    "normalTrait": "<战斗中>开启技能时，使已激活的【萨尔贡】层数+4",
+    "eliteTrait": "<战斗中>开启技能时，使已激活的【萨尔贡】层数+8",
+    "sourceUrl": "https://prts.wiki/w/%E5%8D%AB%E6%88%8D%E5%8D%8F%E8%AE%AE%EF%BC%9A%E7%9B%9F%E7%BA%A6/PRTS%E7%9B%9F%E7%BA%A6%E8%AE%B0%E5%BD%95"
+  },
+  {
+    "id": "ed201eae2e6e229e",
+    "name": "见行者",
+    "tier": 3,
+    "prototypeName": null,
+    "avatarPath": null,
+    "coreBondIds": [
+      "68157a62f34cacc0"
+    ],
+    "additionalBondIds": [],
+    "traitType": "持续叠加",
+    "normalTrait": "<休整期结束时>使自身及身后一格干员的已激活盟约分别各层数+3",
+    "eliteTrait": "<休整期结束时>使自身及身后一格干员的已激活盟约分别各层数+6",
+    "sourceUrl": "https://prts.wiki/w/%E5%8D%AB%E6%88%8D%E5%8D%8F%E8%AE%AE%EF%BC%9A%E7%9B%9F%E7%BA%A6/PRTS%E7%9B%9F%E7%BA%A6%E8%AE%B0%E5%BD%95"
+  },
+  {
+    "id": "aeedf82183029674",
+    "name": "海蒂",
+    "tier": 3,
+    "prototypeName": null,
+    "avatarPath": null,
+    "coreBondIds": [
+      "71be58c20db5e8e6"
+    ],
+    "additionalBondIds": [
+      "7127b4d3dd34ca35"
+    ],
+    "traitType": "持续叠加",
+    "normalTrait": "<休整期结束时>场上每有1名不同阶的【维多利亚】干员，使已激活的【维多利亚】层数<del>+1</del>+2",
+    "eliteTrait": "<休整期结束时>场上每有1名不同阶的【维多利亚】干员，使已激活的【维多利亚】层数<del>+2</del>+4",
+    "sourceUrl": "https://prts.wiki/w/%E5%8D%AB%E6%88%8D%E5%8D%8F%E8%AE%AE%EF%BC%9A%E7%9B%9F%E7%BA%A6/PRTS%E7%9B%9F%E7%BA%A6%E8%AE%B0%E5%BD%95"
+  },
+  {
+    "id": "45147f91801332c7",
+    "name": "蜜莓",
+    "tier": 3,
+    "prototypeName": null,
+    "avatarPath": null,
+    "coreBondIds": [],
+    "additionalBondIds": [
+      "3c75b25b30ac658f"
+    ],
+    "traitType": "单次叠加",
+    "normalTrait": "<获得时>使随机一个已激活的盟约层数+2，重复2次",
+    "eliteTrait": "<获得时>使随机一个已激活的盟约层数+4，重复2次",
+    "sourceUrl": "https://prts.wiki/w/%E5%8D%AB%E6%88%8D%E5%8D%8F%E8%AE%AE%EF%BC%9A%E7%9B%9F%E7%BA%A6/PRTS%E7%9B%9F%E7%BA%A6%E8%AE%B0%E5%BD%95"
+  },
+  {
+    "id": "820d7edcf8dccccd",
+    "name": "安哲拉",
+    "tier": 3,
+    "prototypeName": "预备干员-辅助(卫戍协议)",
+    "avatarPath": null,
+    "coreBondIds": [
+      "ed8adb775b1976c8"
+    ],
+    "additionalBondIds": [
+      "815e5f6dcb3dac13"
+    ],
+    "traitType": "作战能力",
+    "normalTrait": "攻击海怪敌人时攻击力提升至150%",
+    "eliteTrait": "攻击海怪敌人时攻击力提升至200%",
+    "sourceUrl": "https://prts.wiki/w/%E5%8D%AB%E6%88%8D%E5%8D%8F%E8%AE%AE%EF%BC%9A%E7%9B%9F%E7%BA%A6/PRTS%E7%9B%9F%E7%BA%A6%E8%AE%B0%E5%BD%95"
+  },
+  {
+    "id": "5385442665c66a70",
+    "name": "雪猎",
+    "tier": 3,
+    "prototypeName": "预备干员-术师(卫戍协议)",
+    "avatarPath": null,
+    "coreBondIds": [
+      "74ee6ba0f38f7239"
+    ],
+    "additionalBondIds": [
+      "815e5f6dcb3dac13"
+    ],
+    "traitType": "单次叠加",
+    "normalTrait": "<获得时>自身所属盟约层数+6（无需激活盟约）",
+    "eliteTrait": "<获得时>自身所属盟约层数+12（无需激活盟约）",
+    "sourceUrl": "https://prts.wiki/w/%E5%8D%AB%E6%88%8D%E5%8D%8F%E8%AE%AE%EF%BC%9A%E7%9B%9F%E7%BA%A6/PRTS%E7%9B%9F%E7%BA%A6%E8%AE%B0%E5%BD%95"
+  },
+  {
+    "id": "ab6640b231c73552",
+    "name": "伊桑",
+    "tier": 3,
+    "prototypeName": null,
+    "avatarPath": null,
+    "coreBondIds": [],
+    "additionalBondIds": [
+      "3c75b25b30ac658f"
+    ],
+    "traitType": "整备能力",
+    "normalTrait": "<获得时>获得1名当前人数最多盟约的干员（自身除外）",
+    "eliteTrait": null,
+    "sourceUrl": "https://prts.wiki/w/%E5%8D%AB%E6%88%8D%E5%8D%8F%E8%AE%AE%EF%BC%9A%E7%9B%9F%E7%BA%A6/PRTS%E7%9B%9F%E7%BA%A6%E8%AE%B0%E5%BD%95"
+  },
+  {
+    "id": "bcb1d460630fa267",
+    "name": "至简",
+    "tier": 3,
+    "prototypeName": null,
+    "avatarPath": null,
+    "coreBondIds": [
+      "0d216d3f3f67773b"
+    ],
+    "additionalBondIds": [
+      "ff1d8cb95582c06e"
+    ],
+    "traitType": "整备能力",
+    "normalTrait": "购买价格为1",
+    "eliteTrait": null,
+    "sourceUrl": "https://prts.wiki/w/%E5%8D%AB%E6%88%8D%E5%8D%8F%E8%AE%AE%EF%BC%9A%E7%9B%9F%E7%BA%A6/PRTS%E7%9B%9F%E7%BA%A6%E8%AE%B0%E5%BD%95"
+  },
+  {
+    "id": "7683f9c4726dddef",
+    "name": "耶拉",
+    "tier": 3,
+    "prototypeName": null,
+    "avatarPath": null,
+    "coreBondIds": [
+      "74ee6ba0f38f7239"
+    ],
+    "additionalBondIds": [
+      "7ffc44fb11135128"
+    ],
+    "traitType": "整备能力",
+    "normalTrait": "<获得时>获得1件“谢拉格不融冰”",
+    "eliteTrait": "<获得时>获得2件“谢拉格不融冰”",
+    "sourceUrl": "https://prts.wiki/w/%E5%8D%AB%E6%88%8D%E5%8D%8F%E8%AE%AE%EF%BC%9A%E7%9B%9F%E7%BA%A6/PRTS%E7%9B%9F%E7%BA%A6%E8%AE%B0%E5%BD%95"
+  },
+  {
+    "id": "58952796eb5008da",
+    "name": "信仰搅拌机",
+    "tier": 4,
+    "prototypeName": null,
+    "avatarPath": null,
+    "coreBondIds": [
+      "68157a62f34cacc0"
+    ],
+    "additionalBondIds": [
+      "cdeb08838442c081"
+    ],
+    "traitType": "作战能力",
+    "normalTrait": "【拉特兰】和【坚守】每叠加3层，本干员防御力+1%\n（※仅在每次部署时判定盟约层数）",
+    "eliteTrait": "【拉特兰】和【坚守】每叠加3层，本干员防御力+2%\n（※仅在每次部署时判定盟约层数）",
+    "sourceUrl": "https://prts.wiki/w/%E5%8D%AB%E6%88%8D%E5%8D%8F%E8%AE%AE%EF%BC%9A%E7%9B%9F%E7%BA%A6/PRTS%E7%9B%9F%E7%BA%A6%E8%AE%B0%E5%BD%95"
+  },
+  {
+    "id": "51d3774de8e46177",
+    "name": "菲亚梅塔",
+    "tier": 4,
+    "prototypeName": "Stormeye(卫戍协议)",
+    "avatarPath": null,
+    "coreBondIds": [
+      "68157a62f34cacc0"
+    ],
+    "additionalBondIds": [],
+    "traitType": "持续叠加",
+    "normalTrait": "<战斗中>自身正前方三格的干员每消耗10发弹药，使已激活的【拉特兰】层数+2",
+    "eliteTrait": "<战斗中>身前六格的干员每消耗10发弹药，使已激活的【拉特兰】层数+2",
+    "sourceUrl": "https://prts.wiki/w/%E5%8D%AB%E6%88%8D%E5%8D%8F%E8%AE%AE%EF%BC%9A%E7%9B%9F%E7%BA%A6/PRTS%E7%9B%9F%E7%BA%A6%E8%AE%B0%E5%BD%95"
+  },
+  {
+    "id": "1166aa2238a35506",
+    "name": "初雪",
+    "tier": 4,
+    "prototypeName": "预备干员-辅助(卫戍协议)",
+    "avatarPath": null,
+    "coreBondIds": [
+      "74ee6ba0f38f7239"
+    ],
+    "additionalBondIds": [
+      "7127b4d3dd34ca35"
+    ],
+    "traitType": "持续叠加",
+    "normalTrait": "<战斗中>每当范围内1名敌人进入冻结时，有20%概率使已激活的【谢拉格】层数+1",
+    "eliteTrait": "<战斗中>每当范围内1名敌人进入冻结时，有40%概率使已激活的【谢拉格】层数+1",
+    "sourceUrl": "https://prts.wiki/w/%E5%8D%AB%E6%88%8D%E5%8D%8F%E8%AE%AE%EF%BC%9A%E7%9B%9F%E7%BA%A6/PRTS%E7%9B%9F%E7%BA%A6%E8%AE%B0%E5%BD%95"
+  },
+  {
+    "id": "f9d76f5d15494038",
+    "name": "伊内丝",
+    "tier": 4,
+    "prototypeName": "预备干员-特种(卫戍协议)",
+    "avatarPath": null,
+    "coreBondIds": [],
+    "additionalBondIds": [
+      "7ffc44fb11135128",
+      "7c519f93ee535d45"
+    ],
+    "traitType": "持续叠加",
+    "normalTrait": "<休整期结束时>使自身已激活的盟约层数+4",
+    "eliteTrait": "<休整期结束时>使自身已激活的盟约层数+8",
+    "sourceUrl": "https://prts.wiki/w/%E5%8D%AB%E6%88%8D%E5%8D%8F%E8%AE%AE%EF%BC%9A%E7%9B%9F%E7%BA%A6/PRTS%E7%9B%9F%E7%BA%A6%E8%AE%B0%E5%BD%95"
+  },
+  {
+    "id": "0273f12d4f0575c1",
+    "name": "森蚺",
+    "tier": 4,
+    "prototypeName": "Mechanist(卫戍协议)",
+    "avatarPath": null,
+    "coreBondIds": [
+      "0d216d3f3f67773b"
+    ],
+    "additionalBondIds": [],
+    "traitType": "整备能力",
+    "normalTrait": "<获得时>获得1件“迅捷作战粮”",
+    "eliteTrait": "<获得时>获得2件“迅捷作战粮”",
+    "sourceUrl": "https://prts.wiki/w/%E5%8D%AB%E6%88%8D%E5%8D%8F%E8%AE%AE%EF%BC%9A%E7%9B%9F%E7%BA%A6/PRTS%E7%9B%9F%E7%BA%A6%E8%AE%B0%E5%BD%95"
+  },
+  {
+    "id": "ebf84b390c188f80",
+    "name": "寒芒克洛丝",
+    "tier": 4,
+    "prototypeName": null,
+    "avatarPath": null,
+    "coreBondIds": [],
+    "additionalBondIds": [
+      "815e5f6dcb3dac13"
+    ],
+    "traitType": "持续叠加",
+    "normalTrait": "<战斗中>身前一格干员获得特质“开启技能时使已激活【精准】层数+1”（每场战斗至多10层）",
+    "eliteTrait": "<战斗中>身前一格干员获得特质“开启技能时使已激活【精准】层数+2”（每场战斗至多20层）",
+    "sourceUrl": "https://prts.wiki/w/%E5%8D%AB%E6%88%8D%E5%8D%8F%E8%AE%AE%EF%BC%9A%E7%9B%9F%E7%BA%A6/PRTS%E7%9B%9F%E7%BA%A6%E8%AE%B0%E5%BD%95"
+  },
+  {
+    "id": "80d9e501617925a9",
+    "name": "风笛",
+    "tier": 4,
+    "prototypeName": "预备干员-近卫(卫戍协议)",
+    "avatarPath": null,
+    "coreBondIds": [
+      "71be58c20db5e8e6"
+    ],
+    "additionalBondIds": [
+      "7ffc44fb11135128",
+      "13f97cb5baa4b5cb"
+    ],
+    "traitType": "持续叠加",
+    "normalTrait": "<战斗中>每击倒2名敌人，使已激活的【维多利亚】【远见】【不屈】层数+1",
+    "eliteTrait": "<战斗中>每击倒2名敌人，使已激活的【维多利亚】【远见】【不屈】层数+2",
+    "sourceUrl": "https://prts.wiki/w/%E5%8D%AB%E6%88%8D%E5%8D%8F%E8%AE%AE%EF%BC%9A%E7%9B%9F%E7%BA%A6/PRTS%E7%9B%9F%E7%BA%A6%E8%AE%B0%E5%BD%95"
+  },
+  {
+    "id": "c8210cf72e570190",
+    "name": "山",
+    "tier": 4,
+    "prototypeName": "Sharp(卫戍协议)",
+    "avatarPath": null,
+    "coreBondIds": [],
+    "additionalBondIds": [
+      "3ede97245872e27c"
+    ],
+    "traitType": "持续叠加",
+    "normalTrait": "<休整期结束时>本回合每获得过1名干员，使已激活的【投资人】层数+1",
+    "eliteTrait": "<休整期结束时>本回合每获得过1名干员，使已激活的【投资人】层数+2",
+    "sourceUrl": "https://prts.wiki/w/%E5%8D%AB%E6%88%8D%E5%8D%8F%E8%AE%AE%EF%BC%9A%E7%9B%9F%E7%BA%A6/PRTS%E7%9B%9F%E7%BA%A6%E8%AE%B0%E5%BD%95"
+  },
+  {
+    "id": "1cdf0f7217ef7d37",
+    "name": "水月",
+    "tier": 4,
+    "prototypeName": "领主·Sharp",
+    "avatarPath": null,
+    "coreBondIds": [
+      "ed8adb775b1976c8"
+    ],
+    "additionalBondIds": [
+      "758dc22908d4a313"
+    ],
+    "traitType": "作战能力",
+    "normalTrait": "【阿戈尔】和【迅捷】每叠加3层，本干员攻击力+1%\n（※仅在每次部署时判定盟约层数）",
+    "eliteTrait": "【阿戈尔】和【迅捷】每叠加3层，本干员攻击力+2%\n（※仅在每次部署时判定盟约层数）",
+    "sourceUrl": "https://prts.wiki/w/%E5%8D%AB%E6%88%8D%E5%8D%8F%E8%AE%AE%EF%BC%9A%E7%9B%9F%E7%BA%A6/PRTS%E7%9B%9F%E7%BA%A6%E8%AE%B0%E5%BD%95"
+  },
+  {
+    "id": "d57fc4212ef129d0",
+    "name": "忍冬",
+    "tier": 4,
+    "prototypeName": "郁金香(卫戍协议)",
+    "avatarPath": null,
+    "coreBondIds": [],
+    "additionalBondIds": [
+      "7c519f93ee535d45",
+      "758dc22908d4a313"
+    ],
+    "traitType": "单次叠加",
+    "normalTrait": "<获得时>自身所属盟约层数+8（无需激活盟约）",
+    "eliteTrait": "<获得时>自身所属盟约层数+16（无需激活盟约）",
+    "sourceUrl": "https://prts.wiki/w/%E5%8D%AB%E6%88%8D%E5%8D%8F%E8%AE%AE%EF%BC%9A%E7%9B%9F%E7%BA%A6/PRTS%E7%9B%9F%E7%BA%A6%E8%AE%B0%E5%BD%95"
+  },
+  {
+    "id": "6b1b43f3d3b14ee9",
+    "name": "华法琳",
+    "tier": 4,
+    "prototypeName": "预备干员-医疗(卫戍协议)",
+    "avatarPath": null,
+    "coreBondIds": [],
+    "additionalBondIds": [
+      "3d5ab1bf0b23dfde"
+    ],
+    "traitType": "持续叠加",
+    "normalTrait": "<战斗中>身前一格干员获得特质“开启技能时使自身所属已激活盟约层数+1”（每场战斗至多10层）",
+    "eliteTrait": "<战斗中>身前一格干员获得特质“开启技能时使自身所属已激活盟约层数+2”（每场战斗至多20层）",
+    "sourceUrl": "https://prts.wiki/w/%E5%8D%AB%E6%88%8D%E5%8D%8F%E8%AE%AE%EF%BC%9A%E7%9B%9F%E7%BA%A6/PRTS%E7%9B%9F%E7%BA%A6%E8%AE%B0%E5%BD%95"
+  },
+  {
+    "id": "3f6ad7b3b183a54e",
+    "name": "星源",
+    "tier": 4,
+    "prototypeName": null,
+    "avatarPath": null,
+    "coreBondIds": [],
+    "additionalBondIds": [
+      "3d5ab1bf0b23dfde"
+    ],
+    "traitType": "整备能力",
+    "normalTrait": "<休整期结束时>使下个休整期额外获得1资金",
+    "eliteTrait": "<休整期结束时>使下个休整期额外获得2资金",
+    "sourceUrl": "https://prts.wiki/w/%E5%8D%AB%E6%88%8D%E5%8D%8F%E8%AE%AE%EF%BC%9A%E7%9B%9F%E7%BA%A6/PRTS%E7%9B%9F%E7%BA%A6%E8%AE%B0%E5%BD%95"
+  },
+  {
+    "id": "497382a148cca209",
+    "name": "灵知",
+    "tier": 4,
+    "prototypeName": "Raidian(卫戍协议)",
+    "avatarPath": null,
+    "coreBondIds": [
+      "74ee6ba0f38f7239"
+    ],
+    "additionalBondIds": [
+      "ff1d8cb95582c06e"
+    ],
+    "traitType": "作战能力",
+    "normalTrait": "技力自然恢复速度+0.15/秒",
+    "eliteTrait": "技力自然恢复速度+0.3/秒",
+    "sourceUrl": "https://prts.wiki/w/%E5%8D%AB%E6%88%8D%E5%8D%8F%E8%AE%AE%EF%BC%9A%E7%9B%9F%E7%BA%A6/PRTS%E7%9B%9F%E7%BA%A6%E8%AE%B0%E5%BD%95"
+  },
+  {
+    "id": "5162bbc66e7374d8",
+    "name": "莱恩哈特",
+    "tier": 4,
+    "prototypeName": "Pith(卫戍协议)",
+    "avatarPath": null,
+    "coreBondIds": [],
+    "additionalBondIds": [
+      "815e5f6dcb3dac13",
+      "758dc22908d4a313"
+    ],
+    "traitType": "持续叠加",
+    "normalTrait": "<休整期结束时>使自身已激活的盟约层数+4",
+    "eliteTrait": "<休整期结束时>使自身已激活的盟约层数+8",
+    "sourceUrl": "https://prts.wiki/w/%E5%8D%AB%E6%88%8D%E5%8D%8F%E8%AE%AE%EF%BC%9A%E7%9B%9F%E7%BA%A6/PRTS%E7%9B%9F%E7%BA%A6%E8%AE%B0%E5%BD%95"
+  },
+  {
+    "id": "f6c9b8190d208445",
+    "name": "桑葚",
+    "tier": 4,
+    "prototypeName": "Touch(卫戍协议)",
+    "avatarPath": null,
+    "coreBondIds": [
+      "1fddc5a562ee1fbe"
+    ],
+    "additionalBondIds": [
+      "7127b4d3dd34ca35"
+    ],
+    "traitType": "单次叠加",
+    "normalTrait": "<获得时>自身所属盟约层数+3（无需激活盟约）",
+    "eliteTrait": "<获得时>自身所属盟约层数+6（无需激活盟约）",
+    "sourceUrl": "https://prts.wiki/w/%E5%8D%AB%E6%88%8D%E5%8D%8F%E8%AE%AE%EF%BC%9A%E7%9B%9F%E7%BA%A6/PRTS%E7%9B%9F%E7%BA%A6%E8%AE%B0%E5%BD%95"
+  },
+  {
+    "id": "3f33816198f68f9d",
+    "name": "缄默德克萨斯",
+    "tier": 4,
+    "prototypeName": "Misery(卫戍协议)",
+    "avatarPath": null,
+    "coreBondIds": [],
+    "additionalBondIds": [
+      "7c519f93ee535d45",
+      "ff1d8cb95582c06e"
+    ],
+    "traitType": "作战能力",
+    "normalTrait": "【突袭】每叠加3层，本干员再部署时间-1.5%",
+    "eliteTrait": "【突袭】每叠加3层，本干员再部署时间-3%",
+    "sourceUrl": "https://prts.wiki/w/%E5%8D%AB%E6%88%8D%E5%8D%8F%E8%AE%AE%EF%BC%9A%E7%9B%9F%E7%BA%A6/PRTS%E7%9B%9F%E7%BA%A6%E8%AE%B0%E5%BD%95"
+  },
+  {
+    "id": "71567e40ce03dd80",
+    "name": "煌",
+    "tier": 4,
+    "prototypeName": "预备干员-重装(卫戍协议)",
+    "avatarPath": null,
+    "coreBondIds": [
+      "1fddc5a562ee1fbe",
+      "71be58c20db5e8e6"
+    ],
+    "additionalBondIds": [],
+    "traitType": "整备能力",
+    "normalTrait": "<售出时>变为烛煌（或对应的原型干员）\n烛煌同时为【炎】【维多利亚】盟约形态",
+    "eliteTrait": "<售出时>变为2个烛煌（或对应的原型干员）\n烛煌同时为【炎】【维多利亚】盟约形态",
+    "sourceUrl": "https://prts.wiki/w/%E5%8D%AB%E6%88%8D%E5%8D%8F%E8%AE%AE%EF%BC%9A%E7%9B%9F%E7%BA%A6/PRTS%E7%9B%9F%E7%BA%A6%E8%AE%B0%E5%BD%95"
+  },
+  {
+    "id": "ade8e39e8e77fa32",
+    "name": "亚叶",
+    "tier": 4,
+    "prototypeName": null,
+    "avatarPath": null,
+    "coreBondIds": [],
+    "additionalBondIds": [
+      "7127b4d3dd34ca35",
+      "3c75b25b30ac658f"
+    ],
+    "traitType": "整备能力",
+    "normalTrait": "<售出时>进入下个休整期额外获得2资金",
+    "eliteTrait": "<售出时>进入下个休整期额外获得4资金",
+    "sourceUrl": "https://prts.wiki/w/%E5%8D%AB%E6%88%8D%E5%8D%8F%E8%AE%AE%EF%BC%9A%E7%9B%9F%E7%BA%A6/PRTS%E7%9B%9F%E7%BA%A6%E8%AE%B0%E5%BD%95"
+  },
+  {
+    "id": "6de2c08fc1af266e",
+    "name": "圣约送葬人",
+    "tier": 5,
+    "prototypeName": "郁金香(卫戍协议)",
+    "avatarPath": null,
+    "coreBondIds": [
+      "68157a62f34cacc0"
+    ],
+    "additionalBondIds": [
+      "7ffc44fb11135128"
+    ],
+    "traitType": "持续叠加",
+    "normalTrait": "<战斗中>自身每消耗7发子弹，使已激活的【拉特兰】层数+6、【远见】层数+3",
+    "eliteTrait": "<战斗中>自身每消耗7发子弹，使已激活的【拉特兰】层数+12、【远见】层数+6",
+    "sourceUrl": "https://prts.wiki/w/%E5%8D%AB%E6%88%8D%E5%8D%8F%E8%AE%AE%EF%BC%9A%E7%9B%9F%E7%BA%A6/PRTS%E7%9B%9F%E7%BA%A6%E8%AE%B0%E5%BD%95"
+  },
+  {
+    "id": "423fecee249a5714",
+    "name": "异客",
+    "tier": 5,
+    "prototypeName": "预备干员-术师(卫戍协议)",
+    "avatarPath": null,
+    "coreBondIds": [
+      "0d216d3f3f67773b"
+    ],
+    "additionalBondIds": [
+      "815e5f6dcb3dac13"
+    ],
+    "traitType": "持续叠加",
+    "normalTrait": "<战斗中>开启技能时，若同一行有3名干员，使已激活的【萨尔贡】【精准】层数+2",
+    "eliteTrait": "<战斗中>开启技能时，若同一行有3名干员，使已激活的【萨尔贡】【精准】层数+4",
+    "sourceUrl": "https://prts.wiki/w/%E5%8D%AB%E6%88%8D%E5%8D%8F%E8%AE%AE%EF%BC%9A%E7%9B%9F%E7%BA%A6/PRTS%E7%9B%9F%E7%BA%A6%E8%AE%B0%E5%BD%95"
+  },
+  {
+    "id": "a84ea22f5556bfa6",
+    "name": "烛煌",
+    "tier": 5,
+    "prototypeName": "Pith(卫戍协议)",
+    "avatarPath": null,
+    "coreBondIds": [
+      "1fddc5a562ee1fbe",
+      "71be58c20db5e8e6"
+    ],
+    "additionalBondIds": [],
+    "traitType": "单次叠加",
+    "normalTrait": "<获得时>【炎】【维多利亚】层数+3（无需激活盟约）",
+    "eliteTrait": "<获得时>【炎】【维多利亚】层数+6（无需激活盟约）",
+    "sourceUrl": "https://prts.wiki/w/%E5%8D%AB%E6%88%8D%E5%8D%8F%E8%AE%AE%EF%BC%9A%E7%9B%9F%E7%BA%A6/PRTS%E7%9B%9F%E7%BA%A6%E8%AE%B0%E5%BD%95"
+  },
+  {
+    "id": "a8962a3a9da4b330",
+    "name": "左乐",
+    "tier": 5,
+    "prototypeName": "Sharp(卫戍协议)",
+    "avatarPath": null,
+    "coreBondIds": [
+      "1fddc5a562ee1fbe"
+    ],
+    "additionalBondIds": [],
+    "traitType": "{{color|darkgrey|<del>单次叠加</del>}}持续叠加",
+    "normalTrait": "<del><获得时>获得等于“当前调度中心等级”的【炎】层数（无需激活盟约）</del>\n<战斗中>开启技能时，使自身已激活的盟约层数+2(每场作战至多10层）",
+    "eliteTrait": "<del><获得时>获得等于两倍的“当前调度中心等级”的【炎】层数（无需激活盟约）</del>\n<战斗中>开启技能时，使自身已激活的盟约层数+4(每场作战至多20层）",
+    "sourceUrl": "https://prts.wiki/w/%E5%8D%AB%E6%88%8D%E5%8D%8F%E8%AE%AE%EF%BC%9A%E7%9B%9F%E7%BA%A6/PRTS%E7%9B%9F%E7%BA%A6%E8%AE%B0%E5%BD%95"
+  },
+  {
+    "id": "5f32fedb72c52651",
+    "name": "乌尔比安",
+    "tier": 5,
+    "prototypeName": "预备干员-重装(卫戍协议)",
+    "avatarPath": null,
+    "coreBondIds": [
+      "ed8adb775b1976c8"
+    ],
+    "additionalBondIds": [],
+    "traitType": "作战能力",
+    "normalTrait": "【阿戈尔】每叠加2层，本干员攻击力+1%\n（※仅在每次部署时判定盟约层数）",
+    "eliteTrait": "【阿戈尔】每叠加2层，本干员攻击力+2%\n（※仅在每次部署时判定盟约层数）",
+    "sourceUrl": "https://prts.wiki/w/%E5%8D%AB%E6%88%8D%E5%8D%8F%E8%AE%AE%EF%BC%9A%E7%9B%9F%E7%BA%A6/PRTS%E7%9B%9F%E7%BA%A6%E8%AE%B0%E5%BD%95"
+  },
+  {
+    "id": "d8a21f966857193d",
+    "name": "歌蕾蒂娅",
+    "tier": 5,
+    "prototypeName": null,
+    "avatarPath": null,
+    "coreBondIds": [
+      "ed8adb775b1976c8"
+    ],
+    "additionalBondIds": [],
+    "traitType": "整备能力",
+    "normalTrait": "<进入休整期时>若同一行有3名干员，随机获得1个斯卡蒂、幽灵鲨或安哲拉",
+    "eliteTrait": "<进入休整期时>若同一行有3名干员，随机获得1个斯卡蒂、幽灵鲨或安哲拉，重复2次",
+    "sourceUrl": "https://prts.wiki/w/%E5%8D%AB%E6%88%8D%E5%8D%8F%E8%AE%AE%EF%BC%9A%E7%9B%9F%E7%BA%A6/PRTS%E7%9B%9F%E7%BA%A6%E8%AE%B0%E5%BD%95"
+  },
+  {
+    "id": "5c60eae67ba14f16",
+    "name": "史尔特尔",
+    "tier": 5,
+    "prototypeName": "预备干员-近卫(卫戍协议)",
+    "avatarPath": null,
+    "coreBondIds": [],
+    "additionalBondIds": [
+      "7c519f93ee535d45"
+    ],
+    "traitType": "持续叠加",
+    "normalTrait": "<战斗中>每击倒1名敌人时，使已激活的【突袭】层数+1",
+    "eliteTrait": "<战斗中>每击倒1名敌人时，使已激活的【突袭】层数+2",
+    "sourceUrl": "https://prts.wiki/w/%E5%8D%AB%E6%88%8D%E5%8D%8F%E8%AE%AE%EF%BC%9A%E7%9B%9F%E7%BA%A6/PRTS%E7%9B%9F%E7%BA%A6%E8%AE%B0%E5%BD%95"
+  },
+  {
+    "id": "4ce4f6010c8362b2",
+    "name": "涤火杰西卡",
+    "tier": 5,
+    "prototypeName": "Mechanist(卫戍协议)",
+    "avatarPath": null,
+    "coreBondIds": [
+      "71be58c20db5e8e6"
+    ],
+    "additionalBondIds": [
+      "3ede97245872e27c"
+    ],
+    "traitType": "整备能力",
+    "normalTrait": "<进入休整期时>获得1件随机装备",
+    "eliteTrait": "<进入休整期时>获得2件随机装备",
+    "sourceUrl": "https://prts.wiki/w/%E5%8D%AB%E6%88%8D%E5%8D%8F%E8%AE%AE%EF%BC%9A%E7%9B%9F%E7%BA%A6/PRTS%E7%9B%9F%E7%BA%A6%E8%AE%B0%E5%BD%95"
+  },
+  {
+    "id": "0e18f50d4171a8e9",
+    "name": "魔王",
+    "tier": 5,
+    "prototypeName": null,
+    "avatarPath": null,
+    "coreBondIds": [],
+    "additionalBondIds": [
+      "3d5ab1bf0b23dfde",
+      "3c75b25b30ac658f"
+    ],
+    "traitType": "作战能力",
+    "normalTrait": "<战斗中>战斗中当本干员身前一格的干员因特质使层数提升时，使其额外层数+1",
+    "eliteTrait": "<战斗中>战斗中当本干员身前一格的干员因特质使层数提升时，使其额外层数+2",
+    "sourceUrl": "https://prts.wiki/w/%E5%8D%AB%E6%88%8D%E5%8D%8F%E8%AE%AE%EF%BC%9A%E7%9B%9F%E7%BA%A6/PRTS%E7%9B%9F%E7%BA%A6%E8%AE%B0%E5%BD%95"
+  },
+  {
+    "id": "951ac6fbaf610112",
+    "name": "铃兰",
+    "tier": 5,
+    "prototypeName": "预备干员-辅助(卫戍协议)",
+    "avatarPath": null,
+    "coreBondIds": [],
+    "additionalBondIds": [
+      "3c75b25b30ac658f"
+    ],
+    "traitType": "特异化",
+    "normalTrait": "<进入休整期时>触发身前一格的其他干员的“获得时”类效果",
+    "eliteTrait": "<进入休整期时>触发身前两格的其他干员的“获得时”类效果",
+    "sourceUrl": "https://prts.wiki/w/%E5%8D%AB%E6%88%8D%E5%8D%8F%E8%AE%AE%EF%BC%9A%E7%9B%9F%E7%BA%A6/PRTS%E7%9B%9F%E7%BA%A6%E8%AE%B0%E5%BD%95"
+  },
+  {
+    "id": "29b9396eb545a82a",
+    "name": "塞雷娅",
+    "tier": 5,
+    "prototypeName": "Touch(卫戍协议)",
+    "avatarPath": null,
+    "coreBondIds": [],
+    "additionalBondIds": [
+      "cdeb08838442c081"
+    ],
+    "traitType": "特异化",
+    "normalTrait": "{{color|darkgrey|<del><进入休整期时>触发身前一格的其他干员的“休整期结束时”类效果{{mdi|arrow-right}}\n<进入休整期时>触发身前两格的其他干员的“休整期结束时”类效果</del>}}\n身前一格干员若为“休整期结束时”特质，本干员的特质与其相同",
+    "eliteTrait": null,
+    "sourceUrl": "https://prts.wiki/w/%E5%8D%AB%E6%88%8D%E5%8D%8F%E8%AE%AE%EF%BC%9A%E7%9B%9F%E7%BA%A6/PRTS%E7%9B%9F%E7%BA%A6%E8%AE%B0%E5%BD%95"
+  },
+  {
+    "id": "de513e7c45d3ed60",
+    "name": "林",
+    "tier": 5,
+    "prototypeName": "Raidian(卫戍协议)",
+    "avatarPath": null,
+    "coreBondIds": [
+      "1fddc5a562ee1fbe"
+    ],
+    "additionalBondIds": [
+      "ff1d8cb95582c06e"
+    ],
+    "traitType": "持续叠加",
+    "normalTrait": "<休整期结束时>当前休整期每获得过一名干员，使已激活的【炎】【灵巧】层数+1",
+    "eliteTrait": "<休整期结束时>当前休整期每获得过一名干员，使已激活的【炎】【灵巧】层数+2",
+    "sourceUrl": "https://prts.wiki/w/%E5%8D%AB%E6%88%8D%E5%8D%8F%E8%AE%AE%EF%BC%9A%E7%9B%9F%E7%BA%A6/PRTS%E7%9B%9F%E7%BA%A6%E8%AE%B0%E5%BD%95"
+  },
+  {
+    "id": "2db8e6d01e897dca",
+    "name": "归溟幽灵鲨",
+    "tier": 5,
+    "prototypeName": "Misery(卫戍协议)",
+    "avatarPath": null,
+    "coreBondIds": [
+      "ed8adb775b1976c8"
+    ],
+    "additionalBondIds": [
+      "13f97cb5baa4b5cb"
+    ],
+    "traitType": "持续叠加",
+    "normalTrait": "<战斗中>自身被击倒或替身与本体进行切换时，使已激活的【阿戈尔】层数+4、【不屈】层数+4",
+    "eliteTrait": "<战斗中>自身被击倒或替身与本体进行切换时，使已激活的【阿戈尔】层数+8、【不屈】层数+8",
+    "sourceUrl": "https://prts.wiki/w/%E5%8D%AB%E6%88%8D%E5%8D%8F%E8%AE%AE%EF%BC%9A%E7%9B%9F%E7%BA%A6/PRTS%E7%9B%9F%E7%BA%A6%E8%AE%B0%E5%BD%95"
+  },
+  {
+    "id": "1f66d0fa9e149885",
+    "name": "银灰",
+    "tier": 5,
+    "prototypeName": "领主·Sharp",
+    "avatarPath": null,
+    "coreBondIds": [
+      "74ee6ba0f38f7239"
+    ],
+    "additionalBondIds": [
+      "3ede97245872e27c",
+      "3d5ab1bf0b23dfde"
+    ],
+    "traitType": "持续叠加",
+    "normalTrait": "<战斗中>每当范围内1名敌人进入冻结时，有25%概率使已激活的【谢拉格】层数+1",
+    "eliteTrait": "<战斗中>每当范围内1名敌人进入冻结时，有50%概率使已激活的【谢拉格】层数+1",
+    "sourceUrl": "https://prts.wiki/w/%E5%8D%AB%E6%88%8D%E5%8D%8F%E8%AE%AE%EF%BC%9A%E7%9B%9F%E7%BA%A6/PRTS%E7%9B%9F%E7%BA%A6%E8%AE%B0%E5%BD%95"
+  },
+  {
+    "id": "50ac9756ce88e6e9",
+    "name": "引星棘刺",
+    "tier": 5,
+    "prototypeName": "预备干员-狙击(卫戍协议)",
+    "avatarPath": null,
+    "coreBondIds": [],
+    "additionalBondIds": [
+      "3d5ab1bf0b23dfde",
+      "758dc22908d4a313"
+    ],
+    "traitType": "持续叠加",
+    "normalTrait": "<休整期结束时>使自身及身前一格干员的已激活盟约分别各层数+4",
+    "eliteTrait": "<休整期结束时>使自身及身前一格干员的已激活盟约分别各层数+8",
+    "sourceUrl": "https://prts.wiki/w/%E5%8D%AB%E6%88%8D%E5%8D%8F%E8%AE%AE%EF%BC%9A%E7%9B%9F%E7%BA%A6/PRTS%E7%9B%9F%E7%BA%A6%E8%AE%B0%E5%BD%95"
+  },
+  {
+    "id": "90c16dc80fe62356",
+    "name": "白面鸮",
+    "tier": 5,
+    "prototypeName": "预备干员-医疗(卫戍协议)",
+    "avatarPath": null,
+    "coreBondIds": [],
+    "additionalBondIds": [
+      "7127b4d3dd34ca35",
+      "ff1d8cb95582c06e"
+    ],
+    "traitType": "特异化",
+    "normalTrait": "身前一格干员若为“进入休整期时”特质，本干员的特质与其相同",
+    "eliteTrait": null,
+    "sourceUrl": "https://prts.wiki/w/%E5%8D%AB%E6%88%8D%E5%8D%8F%E8%AE%AE%EF%BC%9A%E7%9B%9F%E7%BA%A6/PRTS%E7%9B%9F%E7%BA%A6%E8%AE%B0%E5%BD%95"
+  },
+  {
+    "id": "46ed77649ba5df5c",
+    "name": "瑰盐",
+    "tier": 5,
+    "prototypeName": null,
+    "avatarPath": null,
+    "coreBondIds": [],
+    "additionalBondIds": [
+      "758dc22908d4a313"
+    ],
+    "traitType": "特异化",
+    "normalTrait": "<售出时>触发场上一名拥有“休整期结束时”的干员的特质（优先触发部署位置更靠上的和更靠右的）\n※在boss战前，如玩家在右侧战场，改为“优先触发部署位置更靠上的和更靠左的”",
+    "eliteTrait": null,
+    "sourceUrl": "https://prts.wiki/w/%E5%8D%AB%E6%88%8D%E5%8D%8F%E8%AE%AE%EF%BC%9A%E7%9B%9F%E7%BA%A6/PRTS%E7%9B%9F%E7%BA%A6%E8%AE%B0%E5%BD%95"
+  },
+  {
+    "id": "78a8a96baeac6b79",
+    "name": "提丰",
+    "tier": 5,
+    "prototypeName": "Stormeye(卫戍协议)",
+    "avatarPath": null,
+    "coreBondIds": [],
+    "additionalBondIds": [
+      "815e5f6dcb3dac13",
+      "ff1d8cb95582c06e"
+    ],
+    "traitType": "作战能力",
+    "normalTrait": "攻击力和生命值+20%；核心盟约每叠加3层，本干员攻击力和生命值+1%\n（核心盟约包含【炎】【萨尔贡】【维多利亚】【谢拉格】【拉特兰】【阿戈尔】）\n（※仅在每次部署时判定盟约层数）",
+    "eliteTrait": "攻击力和生命值+40%；核心盟约每叠加3层，本干员攻击力和生命值+2%\n（核心盟约包含【炎】【萨尔贡】【维多利亚】【谢拉格】【拉特兰】【阿戈尔】）\n（※仅在每次部署时判定盟约层数）",
+    "sourceUrl": "https://prts.wiki/w/%E5%8D%AB%E6%88%8D%E5%8D%8F%E8%AE%AE%EF%BC%9A%E7%9B%9F%E7%BA%A6/PRTS%E7%9B%9F%E7%BA%A6%E8%AE%B0%E5%BD%95"
+  },
+  {
+    "id": "fa65c672fb2cdd0f",
+    "name": "蕾缪安",
+    "tier": 6,
+    "prototypeName": "Stormeye(卫戍协议)",
+    "avatarPath": null,
+    "coreBondIds": [
+      "68157a62f34cacc0"
+    ],
+    "additionalBondIds": [
+      "815e5f6dcb3dac13"
+    ],
+    "traitType": "持续叠加",
+    "normalTrait": "<战斗中>自身每消耗10发子弹，若同一行有3名干员，使已激活的【拉特兰】【精准】层数+2",
+    "eliteTrait": "<战斗中>自身每消耗10发子弹，若同一行有3名干员，使已激活的【拉特兰】【精准】层数+4",
+    "sourceUrl": "https://prts.wiki/w/%E5%8D%AB%E6%88%8D%E5%8D%8F%E8%AE%AE%EF%BC%9A%E7%9B%9F%E7%BA%A6/PRTS%E7%9B%9F%E7%BA%A6%E8%AE%B0%E5%BD%95"
+  },
+  {
+    "id": "fbbf79d814e21b1a",
+    "name": "锏",
+    "tier": 6,
+    "prototypeName": "郁金香(卫戍协议)",
+    "avatarPath": null,
+    "coreBondIds": [
+      "74ee6ba0f38f7239"
+    ],
+    "additionalBondIds": [
+      "758dc22908d4a313"
+    ],
+    "traitType": "作战能力",
+    "normalTrait": "【谢拉格】和【迅捷】每叠加3层，本干员攻击力+1%\n（※仅在每次部署时判定盟约层数）",
+    "eliteTrait": "【谢拉格】和【迅捷】每叠加3层，本干员攻击力+2%\n（※仅在每次部署时判定盟约层数）",
+    "sourceUrl": "https://prts.wiki/w/%E5%8D%AB%E6%88%8D%E5%8D%8F%E8%AE%AE%EF%BC%9A%E7%9B%9F%E7%BA%A6/PRTS%E7%9B%9F%E7%BA%A6%E8%AE%B0%E5%BD%95"
+  },
+  {
+    "id": "7138589b5b5a5e54",
+    "name": "余",
+    "tier": 6,
+    "prototypeName": "Mechanist(卫戍协议)",
+    "avatarPath": null,
+    "coreBondIds": [
+      "1fddc5a562ee1fbe"
+    ],
+    "additionalBondIds": [
+      "cdeb08838442c081"
+    ],
+    "traitType": "整备能力",
+    "normalTrait": "<进入休整期时>若同一行有3名干员，随机获得1名当前人数最多盟约的干员",
+    "eliteTrait": "<进入休整期时>随机获得1名当前人数最多盟约的干员",
+    "sourceUrl": "https://prts.wiki/w/%E5%8D%AB%E6%88%8D%E5%8D%8F%E8%AE%AE%EF%BC%9A%E7%9B%9F%E7%BA%A6/PRTS%E7%9B%9F%E7%BA%A6%E8%AE%B0%E5%BD%95"
+  },
+  {
+    "id": "0c3fd9c3cb59a593",
+    "name": "浊心斯卡蒂",
+    "tier": 6,
+    "prototypeName": "Raidian(卫戍协议)",
+    "avatarPath": null,
+    "coreBondIds": [
+      "ed8adb775b1976c8"
+    ],
+    "additionalBondIds": [],
+    "traitType": "作战能力",
+    "normalTrait": "【阿戈尔】每叠加10层，本干员每秒回复50生命，自然技力回复速度+0.15/秒\n（※生命回复的实现方式为增加生命回复速度，至多+200/s，且仅在每次部署时判定盟约层数）",
+    "eliteTrait": "【阿戈尔】每叠加10层，本干员每秒回复100生命，自然技力回复速度+0.3/秒\n（※生命回复的实现方式为增加生命回复速度，至多+200/s，且仅在每次部署时判定盟约层数）",
+    "sourceUrl": "https://prts.wiki/w/%E5%8D%AB%E6%88%8D%E5%8D%8F%E8%AE%AE%EF%BC%9A%E7%9B%9F%E7%BA%A6/PRTS%E7%9B%9F%E7%BA%A6%E8%AE%B0%E5%BD%95"
+  },
+  {
+    "id": "0c575a98a7bbd7fe",
+    "name": "娜仁图亚",
+    "tier": 6,
+    "prototypeName": "Stormeye(卫戍协议)",
+    "avatarPath": null,
+    "coreBondIds": [
+      "0d216d3f3f67773b"
+    ],
+    "additionalBondIds": [],
+    "traitType": "作战能力",
+    "normalTrait": "【萨尔贡】每叠加8层，本干员攻击力+1%",
+    "eliteTrait": "【萨尔贡】每叠加8层，本干员攻击力+2%\n（※仅在每次部署时判定盟约层数）",
+    "sourceUrl": "https://prts.wiki/w/%E5%8D%AB%E6%88%8D%E5%8D%8F%E8%AE%AE%EF%BC%9A%E7%9B%9F%E7%BA%A6/PRTS%E7%9B%9F%E7%BA%A6%E8%AE%B0%E5%BD%95"
+  },
+  {
+    "id": "0f886fddd138a6b0",
+    "name": "佩佩",
+    "tier": 6,
+    "prototypeName": "Sharp(卫戍协议)",
+    "avatarPath": null,
+    "coreBondIds": [
+      "0d216d3f3f67773b"
+    ],
+    "additionalBondIds": [
+      "13f97cb5baa4b5cb"
+    ],
+    "traitType": "整备能力",
+    "normalTrait": "<进入休整期时>获得1件幸运硬币或萨尔贡浓茶，有小概率发现黄沙罗盘",
+    "eliteTrait": "<进入休整期时>获得1件幸运硬币或萨尔贡浓茶，重复2次，有概率发现黄沙罗盘",
+    "sourceUrl": "https://prts.wiki/w/%E5%8D%AB%E6%88%8D%E5%8D%8F%E8%AE%AE%EF%BC%9A%E7%9B%9F%E7%BA%A6/PRTS%E7%9B%9F%E7%BA%A6%E8%AE%B0%E5%BD%95"
+  },
+  {
+    "id": "9e4b0406ed90a08e",
+    "name": "维娜·维多利亚",
+    "tier": 6,
+    "prototypeName": "领主·Sharp",
+    "avatarPath": null,
+    "coreBondIds": [
+      "71be58c20db5e8e6"
+    ],
+    "additionalBondIds": [
+      "3d5ab1bf0b23dfde"
+    ],
+    "traitType": "持续叠加",
+    "normalTrait": "<休整期结束时>场上每有1名不同阶的【维多利亚】/【奇迹】干员使已激活的【维多利亚】/【奇迹】层数+2",
+    "eliteTrait": "<休整期结束时>场上每有1名不同阶的【维多利亚】/【奇迹】干员使已激活的【维多利亚】/【奇迹】层数+4",
+    "sourceUrl": "https://prts.wiki/w/%E5%8D%AB%E6%88%8D%E5%8D%8F%E8%AE%AE%EF%BC%9A%E7%9B%9F%E7%BA%A6/PRTS%E7%9B%9F%E7%BA%A6%E8%AE%B0%E5%BD%95"
+  },
+  {
+    "id": "6eca531ab16ee9c3",
+    "name": "澄闪",
+    "tier": 6,
+    "prototypeName": "Pith(卫戍协议)",
+    "avatarPath": null,
+    "coreBondIds": [
+      "71be58c20db5e8e6"
+    ],
+    "additionalBondIds": [],
+    "traitType": "作战能力",
+    "normalTrait": "【维多利亚】每叠加3层，本干员攻击速度+1\n（※至多+200，且仅在每次部署时判定盟约层数）",
+    "eliteTrait": "【维多利亚】每叠加3层，本干员攻击速度+2\n（※至多+200，且仅在每次部署时判定盟约层数）",
+    "sourceUrl": "https://prts.wiki/w/%E5%8D%AB%E6%88%8D%E5%8D%8F%E8%AE%AE%EF%BC%9A%E7%9B%9F%E7%BA%A6/PRTS%E7%9B%9F%E7%BA%A6%E8%AE%B0%E5%BD%95"
+  },
+  {
+    "id": "f383c6d341d9c7b3",
+    "name": "纯烬艾雅法拉",
+    "tier": 6,
+    "prototypeName": "Touch(卫戍协议)",
+    "avatarPath": null,
+    "coreBondIds": [],
+    "additionalBondIds": [
+      "3c75b25b30ac658f"
+    ],
+    "traitType": "持续叠加",
+    "normalTrait": "<战斗中>开启技能时，同一行每有1名干员，当前已激活且层数最多的盟约层数+1",
+    "eliteTrait": "<战斗中>开启技能时，同一行每有1名干员，当前已激活且层数最多的盟约层数+2",
+    "sourceUrl": "https://prts.wiki/w/%E5%8D%AB%E6%88%8D%E5%8D%8F%E8%AE%AE%EF%BC%9A%E7%9B%9F%E7%BA%A6/PRTS%E7%9B%9F%E7%BA%A6%E8%AE%B0%E5%BD%95"
+  },
+  {
+    "id": "7fe9ce05b3d0e1fb",
+    "name": "死芒",
+    "tier": 6,
+    "prototypeName": "领主·Sharp",
+    "avatarPath": null,
+    "coreBondIds": [],
+    "additionalBondIds": [
+      "758dc22908d4a313"
+    ],
+    "traitType": "持续叠加",
+    "normalTrait": "<休整期结束时>整备区每有1个干员，使已激活的【迅捷】层数+1",
+    "eliteTrait": "<休整期结束时>整备区每有1个干员，使已激活的【迅捷】层数+2",
+    "sourceUrl": "https://prts.wiki/w/%E5%8D%AB%E6%88%8D%E5%8D%8F%E8%AE%AE%EF%BC%9A%E7%9B%9F%E7%BA%A6/PRTS%E7%9B%9F%E7%BA%A6%E8%AE%B0%E5%BD%95"
+  },
+  {
+    "id": "2be9bca0d48093a7",
+    "name": "缪尔赛思",
+    "tier": 6,
+    "prototypeName": "郁金香(卫戍协议)",
+    "avatarPath": null,
+    "coreBondIds": [],
+    "additionalBondIds": [
+      "e440f765e809fcc4"
+    ],
+    "traitType": "整备能力",
+    "normalTrait": "<获得时>获得1个“变形同构体”",
+    "eliteTrait": "<获得时>获得2个“变形同构体”",
+    "sourceUrl": "https://prts.wiki/w/%E5%8D%AB%E6%88%8D%E5%8D%8F%E8%AE%AE%EF%BC%9A%E7%9B%9F%E7%BA%A6/PRTS%E7%9B%9F%E7%BA%A6%E8%AE%B0%E5%BD%95"
+  },
+  {
+    "id": "21a81f20c9d4da70",
+    "name": "伊芙利特",
+    "tier": 6,
+    "prototypeName": "Pith(卫戍协议)",
+    "avatarPath": null,
+    "coreBondIds": [],
+    "additionalBondIds": [
+      "815e5f6dcb3dac13"
+    ],
+    "traitType": "持续叠加",
+    "normalTrait": "<休整期结束时>自身正前方的所有干员所属已激活盟约分别各层数+2",
+    "eliteTrait": "<休整期结束时>自身正前方的所有干员所属已激活盟约分别各层数+4",
+    "sourceUrl": "https://prts.wiki/w/%E5%8D%AB%E6%88%8D%E5%8D%8F%E8%AE%AE%EF%BC%9A%E7%9B%9F%E7%BA%A6/PRTS%E7%9B%9F%E7%BA%A6%E8%AE%B0%E5%BD%95"
+  },
+  {
+    "id": "16e5c1c5ee2b1b46",
+    "name": "新约能天使",
+    "tier": 6,
+    "prototypeName": "Misery(卫戍协议)",
+    "avatarPath": null,
+    "coreBondIds": [
+      "68157a62f34cacc0"
+    ],
+    "additionalBondIds": [],
+    "traitType": "整备能力",
+    "normalTrait": "<获得时>使下个休整期额外获得2资金",
+    "eliteTrait": "<获得时>使下个休整期额外获得4资金",
+    "sourceUrl": "https://prts.wiki/w/%E5%8D%AB%E6%88%8D%E5%8D%8F%E8%AE%AE%EF%BC%9A%E7%9B%9F%E7%BA%A6/PRTS%E7%9B%9F%E7%BA%A6%E8%AE%B0%E5%BD%95"
+  },
+  {
+    "id": "c48d044cec3c107d",
+    "name": "流明",
+    "tier": 6,
+    "prototypeName": null,
+    "avatarPath": null,
+    "coreBondIds": [],
+    "additionalBondIds": [
+      "7127b4d3dd34ca35",
+      "3c75b25b30ac658f"
+    ],
+    "traitType": "持续叠加",
+    "normalTrait": "<休整期结束时>整备区中每名干员所在的已激活盟约分别层数+2",
+    "eliteTrait": "<休整期结束时>整备区中每名干员所在的已激活盟约分别层数+4",
+    "sourceUrl": "https://prts.wiki/w/%E5%8D%AB%E6%88%8D%E5%8D%8F%E8%AE%AE%EF%BC%9A%E7%9B%9F%E7%BA%A6/PRTS%E7%9B%9F%E7%BA%A6%E8%AE%B0%E5%BD%95"
+  },
+  {
+    "id": "2aea2263bbae9463",
+    "name": "淬羽赫默",
+    "tier": 6,
+    "prototypeName": null,
+    "avatarPath": null,
+    "coreBondIds": [],
+    "additionalBondIds": [
+      "ff1d8cb95582c06e",
+      "3c75b25b30ac658f"
+    ],
+    "traitType": "持续叠加",
+    "normalTrait": "<休整期结束时>本回合每花费1资金，使已激活的【灵巧】层数+1",
+    "eliteTrait": "<休整期结束时>本回合每花费1资金，使已激活的【灵巧】层数+2",
+    "sourceUrl": "https://prts.wiki/w/%E5%8D%AB%E6%88%8D%E5%8D%8F%E8%AE%AE%EF%BC%9A%E7%9B%9F%E7%BA%A6/PRTS%E7%9B%9F%E7%BA%A6%E8%AE%B0%E5%BD%95"
+  },
+  {
+    "id": "c6afe02a84f988eb",
+    "name": "泥岩",
+    "tier": 6,
+    "prototypeName": "Mechanist(卫戍协议)",
+    "avatarPath": null,
+    "coreBondIds": [],
+    "additionalBondIds": [
+      "cdeb08838442c081",
+      "13f97cb5baa4b5cb"
+    ],
+    "traitType": "作战能力",
+    "normalTrait": "攻击力和生命值+20%；核心盟约每叠加3层，本干员攻击力和生命值+1%\n（核心盟约包含【炎】【萨尔贡】【维多利亚】【谢拉格】【拉特兰】【阿戈尔】）\n（※仅在每次部署时判定盟约层数）",
+    "eliteTrait": "攻击力和生命值+40%；核心盟约每叠加3层，本干员攻击力和生命值+2%\n（核心盟约包含【炎】【萨尔贡】【维多利亚】【谢拉格】【拉特兰】【阿戈尔】）\n（※仅在每次部署时判定盟约层数）",
+    "sourceUrl": "https://prts.wiki/w/%E5%8D%AB%E6%88%8D%E5%8D%8F%E8%AE%AE%EF%BC%9A%E7%9B%9F%E7%BA%A6/PRTS%E7%9B%9F%E7%BA%A6%E8%AE%B0%E5%BD%95"
+  }
+]
