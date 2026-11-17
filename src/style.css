@@ -42,3 +42,12 @@
 [data-theme="dark"] .card-bond{background:#344952;color:#e3edf1}
 [data-theme="dark"] .card-bond.additional{background:#303c44;color:#cbd8df}
 [data-theme="dark"] .card-bond-icon img{filter:brightness(0) invert(1)}
+
+/* Keep the covenant controls visible while the list scrolls independently. */
+@media (min-width:701px){
+ .sidebar{position:sticky;top:0;align-self:start;height:calc(100vh - 76px);min-height:0}
+ .bond-list{min-height:0;overflow-y:auto;overscroll-behavior:contain}
+}
+@media (max-width:700px){
+ .sidebar .bond-list{flex:none;max-height:50vh;overflow-y:auto;overscroll-behavior:contain}
+}
