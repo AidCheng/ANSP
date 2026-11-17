@@ -69,3 +69,8 @@
 .tag-wrap.additional .tag,.tag-wrap.additional .tag-add{background:#fff0d1;color:#80500a}
 [data-theme="dark"] .card-bond.core,[data-theme="dark"] .category-badge.core,[data-theme="dark"] .tag-wrap.core .tag,[data-theme="dark"] .tag-wrap.core .tag-add{background:#1d4561;color:#d3edff}
 [data-theme="dark"] .card-bond.additional,[data-theme="dark"] .category-badge.additional,[data-theme="dark"] .tag-wrap.additional .tag,[data-theme="dark"] .tag-wrap.additional .tag-add{background:#59421e;color:#ffdfa0}
+.feedback-link{flex-shrink:0;white-space:nowrap;color:#526e81;font-size:12px;text-decoration:none}
+.feedback-link:hover{text-decoration:underline}
+.feedback-link:focus-visible{outline:2px solid #3984c6;outline-offset:3px}
+[data-theme="dark"] .feedback-link{color:#c0d8e8}
+@media(max-width:700px){.global-search kbd{display:none}}
