@@ -95,13 +95,23 @@ def main():
             except Exception:
                 if attempt==2: raise
                 time.sleep(2**attempt)
-    page=next(iter(data['query']['pages'].values())); rev=page['revisions'][0]; text=rev['slots']['main']['*']; bonds,operators,meta=parse(text,config,rev['revid']); errors=validate(bonds,operators,meta)
+    page=next(iter(data['query']['pages'].values())); rev=page['revisions'][0]; text=rev['slots']['main']['*']; bonds,operators,meta=parse(text,config,rev['revid'])
+    # Carry forward successfully verified local images by stable ID; a later image sync refreshes mappings.
+    for filename,records,field in [('bonds',bonds,'iconPath'),('operators',operators,'avatarPath')]:
+        path=ROOT/'public/data'/f'{filename}.json'
+        if path.exists():
+            old={x['id']:x.get(field) for x in json.loads(path.read_text())}
+            for record in records:
+                value=old.get(record['id'])
+                if value and (ROOT/'public'/value).is_file(): record[field]=value
+    meta['counts']['missingAvatars']=sum(not o.get('avatarPath') for o in operators)
+    errors=validate(bonds,operators,meta)
     if errors: raise ValueError('; '.join(errors))
     target=ROOT/'public/data'; target.mkdir(parents=True,exist_ok=True)
     with tempfile.TemporaryDirectory(dir=target) as d:
         for name,obj in [('bonds',bonds),('operators',operators),('metadata',meta)]: (Path(d)/(name+'.json')).write_text(json.dumps(obj,ensure_ascii=False,indent=2)+'\n')
         for name in ('bonds','operators','metadata'): (Path(d)/(name+'.json')).replace(target/(name+'.json'))
-    report={'source':meta['sourcePages'],'fetchedAt':meta['fetchedAt'],'counts':meta['counts'],'tiers':{str(i):sum(o['tier']==i for o in operators) for i in range(1,7)},'missingAvatars':[o['name']+' '+str(o['tier']) for o in operators],'missingEliteTraits':sum(not o['eliteTrait'] for o in operators),'unknownTemplates':sorted(set(re.findall(r'\{\{([^|{}]+)', '\n'.join(b['effectText'] for b in bonds)+'\n'+'\n'.join((o['normalTrait'] or '')+'\n'+(o['eliteTrait'] or '') for o in operators)))), 'unresolvedBonds':[]}
+    report={'source':meta['sourcePages'],'fetchedAt':meta['fetchedAt'],'counts':meta['counts'],'tiers':{str(i):sum(o['tier']==i for o in operators) for i in range(1,7)},'missingAvatars':[o['name']+' '+str(o['tier']) for o in operators if not o.get('avatarPath')],'missingEliteTraits':sum(not o['eliteTrait'] for o in operators),'unknownTemplates':sorted(set(re.findall(r'\{\{([^|{}]+)', '\n'.join(b['effectText'] for b in bonds)+'\n'+'\n'.join((o['normalTrait'] or '')+'\n'+(o['eliteTrait'] or '') for o in operators)))), 'unresolvedBonds':[]}
     (ROOT/'data/reports/sync.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n'); print(json.dumps(meta,ensure_ascii=False))
 if __name__=='__main__':
     try: main()

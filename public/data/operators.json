@@ -4,7 +4,7 @@
     "name": "隐现",
     "tier": 1,
     "prototypeName": null,
-    "avatarPath": null,
+    "avatarPath": "avatars/3c77e2d8fea3c381ac9f9779.png",
     "coreBondIds": [
       "68157a62f34cacc0"
     ],
@@ -19,7 +19,7 @@
     "name": "讯使",
     "tier": 1,
     "prototypeName": null,
-    "avatarPath": null,
+    "avatarPath": "avatars/99d45e865a62e58eb00deddf.png",
     "coreBondIds": [
       "74ee6ba0f38f7239"
     ],
@@ -36,7 +36,7 @@
     "name": "惊蛰",
     "tier": 1,
     "prototypeName": "预备干员-术师(卫戍协议)",
-    "avatarPath": null,
+    "avatarPath": "avatars/eb5328d2b49e3a547293b299.png",
     "coreBondIds": [
       "1fddc5a562ee1fbe"
     ],
@@ -51,7 +51,7 @@
     "name": "幽灵鲨",
     "tier": 1,
     "prototypeName": "预备干员-近卫(卫戍协议)",
-    "avatarPath": null,
+    "avatarPath": "avatars/dac7f532eb1b4c1d47ac8ad8.png",
     "coreBondIds": [
       "ed8adb775b1976c8"
     ],
@@ -66,7 +66,7 @@
     "name": "红豆",
     "tier": 1,
     "prototypeName": "预备干员-先锋(卫戍协议)",
-    "avatarPath": null,
+    "avatarPath": "avatars/eaa9e36ab83399d0f1c5aa93.png",
     "coreBondIds": [],
     "additionalBondIds": [
       "13f97cb5baa4b5cb"
@@ -81,7 +81,7 @@
     "name": "梅",
     "tier": 1,
     "prototypeName": "预备干员-辅助(卫戍协议)",
-    "avatarPath": null,
+    "avatarPath": "avatars/f66016508c65b90a632a75c1.png",
     "coreBondIds": [
       "71be58c20db5e8e6"
     ],
@@ -98,7 +98,7 @@
     "name": "拉普兰德",
     "tier": 1,
     "prototypeName": "预备干员-狙击(卫戍协议)",
-    "avatarPath": null,
+    "avatarPath": "avatars/a0cd9a646f7617733b094394.png",
     "coreBondIds": [],
     "additionalBondIds": [
       "3c75b25b30ac658f"
@@ -113,7 +113,7 @@
     "name": "德克萨斯",
     "tier": 1,
     "prototypeName": null,
-    "avatarPath": null,
+    "avatarPath": "avatars/941ccb4b6b386736640fd076.png",
     "coreBondIds": [],
     "additionalBondIds": [
       "758dc22908d4a313"
@@ -128,7 +128,7 @@
     "name": "跃跃",
     "tier": 1,
     "prototypeName": null,
-    "avatarPath": null,
+    "avatarPath": "avatars/9d914017fd85d154dbb406b5.png",
     "coreBondIds": [],
     "additionalBondIds": [
       "815e5f6dcb3dac13"
@@ -143,7 +143,7 @@
     "name": "蛇屠箱",
     "tier": 1,
     "prototypeName": "预备干员-重装(卫戍协议)",
-    "avatarPath": null,
+    "avatarPath": "avatars/6302f2aaa5f47587bd5f7fe5.png",
     "coreBondIds": [],
     "additionalBondIds": [
       "cdeb08838442c081"
@@ -158,7 +158,7 @@
     "name": "远山",
     "tier": 1,
     "prototypeName": "预备干员-医疗(卫戍协议)",
-    "avatarPath": null,
+    "avatarPath": "avatars/5ffb05628a150706e742108a.png",
     "coreBondIds": [],
     "additionalBondIds": [
       "7ffc44fb11135128",
@@ -174,7 +174,7 @@
     "name": "狮蝎",
     "tier": 1,
     "prototypeName": "预备干员-特种(卫戍协议)",
-    "avatarPath": null,
+    "avatarPath": "avatars/00f259f0f75d62a70348df8e.png",
     "coreBondIds": [
       "0d216d3f3f67773b"
     ],
@@ -191,7 +191,7 @@
     "name": "暴行",
     "tier": 1,
     "prototypeName": null,
-    "avatarPath": null,
+    "avatarPath": "avatars/36bf2e1ad713c682c2523593.png",
     "coreBondIds": [],
     "additionalBondIds": [
       "7127b4d3dd34ca35"
@@ -206,7 +206,7 @@
     "name": "布丁",
     "tier": 1,
     "prototypeName": null,
-    "avatarPath": null,
+    "avatarPath": "avatars/83098f4c2f7be6ed36527cd5.png",
     "coreBondIds": [],
     "additionalBondIds": [
       "ff1d8cb95582c06e"
@@ -221,7 +221,7 @@
     "name": "盟约·辅助干员",
     "tier": 1,
     "prototypeName": null,
-    "avatarPath": null,
+    "avatarPath": "avatars/062f0b544622d5a882eb11ed.png",
     "coreBondIds": [],
     "additionalBondIds": [
       "e440f765e809fcc4",
@@ -237,7 +237,7 @@
     "name": "送葬人",
     "tier": 2,
     "prototypeName": "预备干员-狙击(卫戍协议)",
-    "avatarPath": null,
+    "avatarPath": "avatars/fbddc8eaacbeb265c5636eef.png",
     "coreBondIds": [
       "68157a62f34cacc0"
     ],
@@ -254,7 +254,7 @@
     "name": "赫默",
     "tier": 2,
     "prototypeName": "预备干员-医疗(卫戍协议)",
-    "avatarPath": null,
+    "avatarPath": "avatars/7bc2de7787b52f5b18677de0.png",
     "coreBondIds": [],
     "additionalBondIds": [
       "7ffc44fb11135128"
@@ -269,7 +269,7 @@
     "name": "角峰",
     "tier": 2,
     "prototypeName": "预备干员-重装(卫戍协议)",
-    "avatarPath": null,
+    "avatarPath": "avatars/b24ea69ed88b20d5509da4a3.png",
     "coreBondIds": [
       "74ee6ba0f38f7239"
     ],
@@ -286,7 +286,7 @@
     "name": "万顷",
     "tier": 2,
     "prototypeName": null,
-    "avatarPath": null,
+    "avatarPath": "avatars/667e664680a75645e98a90e3.png",
     "coreBondIds": [
       "1fddc5a562ee1fbe"
     ],
@@ -301,7 +301,7 @@
     "name": "哈洛德",
     "tier": 2,
     "prototypeName": null,
-    "avatarPath": null,
+    "avatarPath": "avatars/1974b36cd81fcab4250e2d27.png",
     "coreBondIds": [
       "71be58c20db5e8e6",
       "74ee6ba0f38f7239"
@@ -317,7 +317,7 @@
     "name": "莎草",
     "tier": 2,
     "prototypeName": null,
-    "avatarPath": null,
+    "avatarPath": "avatars/7140180689612b636ebc5530.png",
     "coreBondIds": [
       "0d216d3f3f67773b"
     ],
@@ -332,7 +332,7 @@
     "name": "深巡",
     "tier": 2,
     "prototypeName": null,
-    "avatarPath": null,
+    "avatarPath": "avatars/791151bfe151abfdf6b1a23d.png",
     "coreBondIds": [
       "ed8adb775b1976c8"
     ],
@@ -347,7 +347,7 @@
     "name": "暴雨",
     "tier": 2,
     "prototypeName": null,
-    "avatarPath": null,
+    "avatarPath": "avatars/45d94114da63b1c7e4eca21a.png",
     "coreBondIds": [
       "0d216d3f3f67773b"
     ],
@@ -364,7 +364,7 @@
     "name": "宴",
     "tier": 2,
     "prototypeName": "预备干员-先锋(卫戍协议)",
-    "avatarPath": null,
+    "avatarPath": "avatars/8a8b9c9368efeec8752e7c7b.png",
     "coreBondIds": [],
     "additionalBondIds": [
       "7c519f93ee535d45",
@@ -380,7 +380,7 @@
     "name": "洛洛",
     "tier": 2,
     "prototypeName": "预备干员-术师(卫戍协议)",
-    "avatarPath": null,
+    "avatarPath": "avatars/7f8025d79495f9c6016cc426.png",
     "coreBondIds": [
       "71be58c20db5e8e6"
     ],
@@ -397,7 +397,7 @@
     "name": "风丸",
     "tier": 2,
     "prototypeName": "预备干员-近卫(卫戍协议)",
-    "avatarPath": null,
+    "avatarPath": "avatars/fa395989d3393ff62d9d6df6.png",
     "coreBondIds": [],
     "additionalBondIds": [
       "3d5ab1bf0b23dfde",
@@ -413,7 +413,7 @@
     "name": "砾",
     "tier": 2,
     "prototypeName": "预备干员-特种(卫戍协议)",
-    "avatarPath": null,
+    "avatarPath": "avatars/daedde009a6b0ddbd431b2a8.png",
     "coreBondIds": [],
     "additionalBondIds": [
       "7c519f93ee535d45",
@@ -429,7 +429,7 @@
     "name": "锡人",
     "tier": 2,
     "prototypeName": null,
-    "avatarPath": null,
+    "avatarPath": "avatars/726b4452b563857b561a65cf.png",
     "coreBondIds": [],
     "additionalBondIds": [
       "758dc22908d4a313",
@@ -445,7 +445,7 @@
     "name": "锡兰",
     "tier": 2,
     "prototypeName": null,
-    "avatarPath": null,
+    "avatarPath": "avatars/45eef64021366e92b56169bb.png",
     "coreBondIds": [],
     "additionalBondIds": [
       "7127b4d3dd34ca35"
@@ -460,7 +460,7 @@
     "name": "芳汀",
     "tier": 2,
     "prototypeName": "预备干员-辅助(卫戍协议)",
-    "avatarPath": null,
+    "avatarPath": "avatars/88c55b3b9bb5b42f6ad197e3.png",
     "coreBondIds": [
       "68157a62f34cacc0"
     ],
@@ -475,7 +475,7 @@
     "name": "能天使",
     "tier": 3,
     "prototypeName": "预备干员-狙击(卫戍协议)",
-    "avatarPath": null,
+    "avatarPath": "avatars/e9de2cf039ee702e11a530ee.png",
     "coreBondIds": [
       "68157a62f34cacc0"
     ],
@@ -492,7 +492,7 @@
     "name": "极光",
     "tier": 3,
     "prototypeName": "预备干员-重装(卫戍协议)",
-    "avatarPath": null,
+    "avatarPath": "avatars/8919715dfb62a745949617c9.png",
     "coreBondIds": [
       "74ee6ba0f38f7239"
     ],
@@ -507,7 +507,7 @@
     "name": "槐琥",
     "tier": 3,
     "prototypeName": "预备干员-特种(卫戍协议)",
-    "avatarPath": null,
+    "avatarPath": "avatars/ad970f6337789ae41aa2b31d.png",
     "coreBondIds": [
       "1fddc5a562ee1fbe"
     ],
@@ -524,7 +524,7 @@
     "name": "琳琅诗怀雅",
     "tier": 3,
     "prototypeName": "预备干员-医疗(卫戍协议)",
-    "avatarPath": null,
+    "avatarPath": "avatars/ed00911edc5467ef5fb7cb51.png",
     "coreBondIds": [
       "1fddc5a562ee1fbe"
     ],
@@ -541,7 +541,7 @@
     "name": "斯卡蒂",
     "tier": 3,
     "prototypeName": "预备干员-近卫(卫戍协议)",
-    "avatarPath": null,
+    "avatarPath": "avatars/2b45df4cd8d43be1174b74de.png",
     "coreBondIds": [
       "ed8adb775b1976c8"
     ],
@@ -559,7 +559,7 @@
     "name": "菲莱",
     "tier": 3,
     "prototypeName": null,
-    "avatarPath": null,
+    "avatarPath": "avatars/c2f6ab2bf5c9f0ef5b3d9b93.png",
     "coreBondIds": [
       "0d216d3f3f67773b"
     ],
@@ -574,7 +574,7 @@
     "name": "见行者",
     "tier": 3,
     "prototypeName": null,
-    "avatarPath": null,
+    "avatarPath": "avatars/9fd6136bdd82469095fe94ab.png",
     "coreBondIds": [
       "68157a62f34cacc0"
     ],
@@ -589,7 +589,7 @@
     "name": "海蒂",
     "tier": 3,
     "prototypeName": null,
-    "avatarPath": null,
+    "avatarPath": "avatars/32089fe89726c37f84ee7e2b.png",
     "coreBondIds": [
       "71be58c20db5e8e6"
     ],
@@ -606,7 +606,7 @@
     "name": "蜜莓",
     "tier": 3,
     "prototypeName": null,
-    "avatarPath": null,
+    "avatarPath": "avatars/7180ccaf469f3fe1a0314032.png",
     "coreBondIds": [],
     "additionalBondIds": [
       "3c75b25b30ac658f"
@@ -621,7 +621,7 @@
     "name": "安哲拉",
     "tier": 3,
     "prototypeName": "预备干员-辅助(卫戍协议)",
-    "avatarPath": null,
+    "avatarPath": "avatars/651ced4faf7cc0be3cd9a312.png",
     "coreBondIds": [
       "ed8adb775b1976c8"
     ],
@@ -638,7 +638,7 @@
     "name": "雪猎",
     "tier": 3,
     "prototypeName": "预备干员-术师(卫戍协议)",
-    "avatarPath": null,
+    "avatarPath": "avatars/72cd8a2ecf0bbd47e0ce8a6e.png",
     "coreBondIds": [
       "74ee6ba0f38f7239"
     ],
@@ -655,7 +655,7 @@
     "name": "伊桑",
     "tier": 3,
     "prototypeName": null,
-    "avatarPath": null,
+    "avatarPath": "avatars/4225e9eade31190b59cf8d42.png",
     "coreBondIds": [],
     "additionalBondIds": [
       "3c75b25b30ac658f"
@@ -670,7 +670,7 @@
     "name": "至简",
     "tier": 3,
     "prototypeName": null,
-    "avatarPath": null,
+    "avatarPath": "avatars/46f9eb2be50bd58a4e749715.png",
     "coreBondIds": [
       "0d216d3f3f67773b"
     ],
@@ -687,7 +687,7 @@
     "name": "耶拉",
     "tier": 3,
     "prototypeName": null,
-    "avatarPath": null,
+    "avatarPath": "avatars/9a4fe90c6e8e1354779dbd95.png",
     "coreBondIds": [
       "74ee6ba0f38f7239"
     ],
@@ -704,7 +704,7 @@
     "name": "信仰搅拌机",
     "tier": 4,
     "prototypeName": null,
-    "avatarPath": null,
+    "avatarPath": "avatars/156fefb3d950b5ec6e17c45e.png",
     "coreBondIds": [
       "68157a62f34cacc0"
     ],
@@ -721,7 +721,7 @@
     "name": "菲亚梅塔",
     "tier": 4,
     "prototypeName": "Stormeye(卫戍协议)",
-    "avatarPath": null,
+    "avatarPath": "avatars/718ff3cf12b3d0803c7985a7.png",
     "coreBondIds": [
       "68157a62f34cacc0"
     ],
@@ -736,7 +736,7 @@
     "name": "初雪",
     "tier": 4,
     "prototypeName": "预备干员-辅助(卫戍协议)",
-    "avatarPath": null,
+    "avatarPath": "avatars/9689ace3ed370f701a13a21f.png",
     "coreBondIds": [
       "74ee6ba0f38f7239"
     ],
@@ -753,7 +753,7 @@
     "name": "伊内丝",
     "tier": 4,
     "prototypeName": "预备干员-特种(卫戍协议)",
-    "avatarPath": null,
+    "avatarPath": "avatars/fe0440581714b601092fd48f.png",
     "coreBondIds": [],
     "additionalBondIds": [
       "7ffc44fb11135128",
@@ -769,7 +769,7 @@
     "name": "森蚺",
     "tier": 4,
     "prototypeName": "Mechanist(卫戍协议)",
-    "avatarPath": null,
+    "avatarPath": "avatars/23f9cbf6e365a5a7264540a7.png",
     "coreBondIds": [
       "0d216d3f3f67773b"
     ],
@@ -784,7 +784,7 @@
     "name": "寒芒克洛丝",
     "tier": 4,
     "prototypeName": null,
-    "avatarPath": null,
+    "avatarPath": "avatars/62fd45222e871964b4048141.png",
     "coreBondIds": [],
     "additionalBondIds": [
       "815e5f6dcb3dac13"
@@ -799,7 +799,7 @@
     "name": "风笛",
     "tier": 4,
     "prototypeName": "预备干员-近卫(卫戍协议)",
-    "avatarPath": null,
+    "avatarPath": "avatars/b175a405df8eba8017c51325.png",
     "coreBondIds": [
       "71be58c20db5e8e6"
     ],
@@ -817,7 +817,7 @@
     "name": "山",
     "tier": 4,
     "prototypeName": "Sharp(卫戍协议)",
-    "avatarPath": null,
+    "avatarPath": "avatars/41106ae5a6b8a7fc51aa2f50.png",
     "coreBondIds": [],
     "additionalBondIds": [
       "3ede97245872e27c"
@@ -832,7 +832,7 @@
     "name": "水月",
     "tier": 4,
     "prototypeName": "领主·Sharp",
-    "avatarPath": null,
+    "avatarPath": "avatars/833da6248655cd7e0cd03286.png",
     "coreBondIds": [
       "ed8adb775b1976c8"
     ],
@@ -849,7 +849,7 @@
     "name": "忍冬",
     "tier": 4,
     "prototypeName": "郁金香(卫戍协议)",
-    "avatarPath": null,
+    "avatarPath": "avatars/9ce243899eba8094a0e87637.png",
     "coreBondIds": [],
     "additionalBondIds": [
       "7c519f93ee535d45",
@@ -865,7 +865,7 @@
     "name": "华法琳",
     "tier": 4,
     "prototypeName": "预备干员-医疗(卫戍协议)",
-    "avatarPath": null,
+    "avatarPath": "avatars/41250981c7be9ba17a9ed556.png",
     "coreBondIds": [],
     "additionalBondIds": [
       "3d5ab1bf0b23dfde"
@@ -880,7 +880,7 @@
     "name": "星源",
     "tier": 4,
     "prototypeName": null,
-    "avatarPath": null,
+    "avatarPath": "avatars/5717d02b41eaae0b721d28f1.png",
     "coreBondIds": [],
     "additionalBondIds": [
       "3d5ab1bf0b23dfde"
@@ -895,7 +895,7 @@
     "name": "灵知",
     "tier": 4,
     "prototypeName": "Raidian(卫戍协议)",
-    "avatarPath": null,
+    "avatarPath": "avatars/a338bfa3f9468a6e54d84566.png",
     "coreBondIds": [
       "74ee6ba0f38f7239"
     ],
@@ -912,7 +912,7 @@
     "name": "莱恩哈特",
     "tier": 4,
     "prototypeName": "Pith(卫戍协议)",
-    "avatarPath": null,
+    "avatarPath": "avatars/12c9ffe76452515802414624.png",
     "coreBondIds": [],
     "additionalBondIds": [
       "815e5f6dcb3dac13",
@@ -928,7 +928,7 @@
     "name": "桑葚",
     "tier": 4,
     "prototypeName": "Touch(卫戍协议)",
-    "avatarPath": null,
+    "avatarPath": "avatars/6749bd8863d21a2f9aef2c33.png",
     "coreBondIds": [
       "1fddc5a562ee1fbe"
     ],
@@ -945,7 +945,7 @@
     "name": "缄默德克萨斯",
     "tier": 4,
     "prototypeName": "Misery(卫戍协议)",
-    "avatarPath": null,
+    "avatarPath": "avatars/bb0c00d746da4d2b8986a899.png",
     "coreBondIds": [],
     "additionalBondIds": [
       "7c519f93ee535d45",
@@ -961,7 +961,7 @@
     "name": "煌",
     "tier": 4,
     "prototypeName": "预备干员-重装(卫戍协议)",
-    "avatarPath": null,
+    "avatarPath": "avatars/638ab92c92fa14f56373044c.png",
     "coreBondIds": [
       "1fddc5a562ee1fbe",
       "71be58c20db5e8e6"
@@ -977,7 +977,7 @@
     "name": "亚叶",
     "tier": 4,
     "prototypeName": null,
-    "avatarPath": null,
+    "avatarPath": "avatars/d8b0783e23e1c5a4a9e88d48.png",
     "coreBondIds": [],
     "additionalBondIds": [
       "7127b4d3dd34ca35",
@@ -993,7 +993,7 @@
     "name": "圣约送葬人",
     "tier": 5,
     "prototypeName": "郁金香(卫戍协议)",
-    "avatarPath": null,
+    "avatarPath": "avatars/2d6a2a2c2f97a68403dfcf1b.png",
     "coreBondIds": [
       "68157a62f34cacc0"
     ],
@@ -1010,7 +1010,7 @@
     "name": "异客",
     "tier": 5,
     "prototypeName": "预备干员-术师(卫戍协议)",
-    "avatarPath": null,
+    "avatarPath": "avatars/2706d93a52e969e60db6f660.png",
     "coreBondIds": [
       "0d216d3f3f67773b"
     ],
@@ -1027,7 +1027,7 @@
     "name": "烛煌",
     "tier": 5,
     "prototypeName": "Pith(卫戍协议)",
-    "avatarPath": null,
+    "avatarPath": "avatars/4565ce69ff4ff03172fe8edc.png",
     "coreBondIds": [
       "1fddc5a562ee1fbe",
       "71be58c20db5e8e6"
@@ -1043,7 +1043,7 @@
     "name": "左乐",
     "tier": 5,
     "prototypeName": "Sharp(卫戍协议)",
-    "avatarPath": null,
+    "avatarPath": "avatars/153ed9fe316e749319d49e7b.png",
     "coreBondIds": [
       "1fddc5a562ee1fbe"
     ],
@@ -1058,7 +1058,7 @@
     "name": "乌尔比安",
     "tier": 5,
     "prototypeName": "预备干员-重装(卫戍协议)",
-    "avatarPath": null,
+    "avatarPath": "avatars/16222c78dfbc40eb36b9227a.png",
     "coreBondIds": [
       "ed8adb775b1976c8"
     ],
@@ -1073,7 +1073,7 @@
     "name": "歌蕾蒂娅",
     "tier": 5,
     "prototypeName": null,
-    "avatarPath": null,
+    "avatarPath": "avatars/b23ab422017ae4abc5d72cfc.png",
     "coreBondIds": [
       "ed8adb775b1976c8"
     ],
@@ -1088,7 +1088,7 @@
     "name": "史尔特尔",
     "tier": 5,
     "prototypeName": "预备干员-近卫(卫戍协议)",
-    "avatarPath": null,
+    "avatarPath": "avatars/99d509ecf05612508281416c.png",
     "coreBondIds": [],
     "additionalBondIds": [
       "7c519f93ee535d45"
@@ -1103,7 +1103,7 @@
     "name": "涤火杰西卡",
     "tier": 5,
     "prototypeName": "Mechanist(卫戍协议)",
-    "avatarPath": null,
+    "avatarPath": "avatars/1c492e5bdd440304490517b1.png",
     "coreBondIds": [
       "71be58c20db5e8e6"
     ],
@@ -1120,7 +1120,7 @@
     "name": "魔王",
     "tier": 5,
     "prototypeName": null,
-    "avatarPath": null,
+    "avatarPath": "avatars/19ca1250d11092c8afab431b.png",
     "coreBondIds": [],
     "additionalBondIds": [
       "3d5ab1bf0b23dfde",
@@ -1136,7 +1136,7 @@
     "name": "铃兰",
     "tier": 5,
     "prototypeName": "预备干员-辅助(卫戍协议)",
-    "avatarPath": null,
+    "avatarPath": "avatars/0c4e8d470cba4177a2173aad.png",
     "coreBondIds": [],
     "additionalBondIds": [
       "3c75b25b30ac658f"
@@ -1151,7 +1151,7 @@
     "name": "塞雷娅",
     "tier": 5,
     "prototypeName": "Touch(卫戍协议)",
-    "avatarPath": null,
+    "avatarPath": "avatars/056cc6ef0ec7a77aa3907b8e.png",
     "coreBondIds": [],
     "additionalBondIds": [
       "cdeb08838442c081"
@@ -1166,7 +1166,7 @@
     "name": "林",
     "tier": 5,
     "prototypeName": "Raidian(卫戍协议)",
-    "avatarPath": null,
+    "avatarPath": "avatars/48c95536b32dbca3f7faf13f.png",
     "coreBondIds": [
       "1fddc5a562ee1fbe"
     ],
@@ -1183,7 +1183,7 @@
     "name": "归溟幽灵鲨",
     "tier": 5,
     "prototypeName": "Misery(卫戍协议)",
-    "avatarPath": null,
+    "avatarPath": "avatars/9205ed6d4d2b2c95fecb33f7.png",
     "coreBondIds": [
       "ed8adb775b1976c8"
     ],
@@ -1200,7 +1200,7 @@
     "name": "银灰",
     "tier": 5,
     "prototypeName": "领主·Sharp",
-    "avatarPath": null,
+    "avatarPath": "avatars/8bb10c929ca13737925dd6c5.png",
     "coreBondIds": [
       "74ee6ba0f38f7239"
     ],
@@ -1218,7 +1218,7 @@
     "name": "引星棘刺",
     "tier": 5,
     "prototypeName": "预备干员-狙击(卫戍协议)",
-    "avatarPath": null,
+    "avatarPath": "avatars/08e2579600f35d0cbbbbec33.png",
     "coreBondIds": [],
     "additionalBondIds": [
       "3d5ab1bf0b23dfde",
@@ -1234,7 +1234,7 @@
     "name": "白面鸮",
     "tier": 5,
     "prototypeName": "预备干员-医疗(卫戍协议)",
-    "avatarPath": null,
+    "avatarPath": "avatars/1a605478bc84a221a543328d.png",
     "coreBondIds": [],
     "additionalBondIds": [
       "7127b4d3dd34ca35",
@@ -1250,7 +1250,7 @@
     "name": "瑰盐",
     "tier": 5,
     "prototypeName": null,
-    "avatarPath": null,
+    "avatarPath": "avatars/a111e2dbe81d3ce1eb372671.png",
     "coreBondIds": [],
     "additionalBondIds": [
       "758dc22908d4a313"
@@ -1265,7 +1265,7 @@
     "name": "提丰",
     "tier": 5,
     "prototypeName": "Stormeye(卫戍协议)",
-    "avatarPath": null,
+    "avatarPath": "avatars/e376f46c7a30a12787bf0ed2.png",
     "coreBondIds": [],
     "additionalBondIds": [
       "815e5f6dcb3dac13",
@@ -1281,7 +1281,7 @@
     "name": "蕾缪安",
     "tier": 6,
     "prototypeName": "Stormeye(卫戍协议)",
-    "avatarPath": null,
+    "avatarPath": "avatars/0113bc9e596c46015b6e4e37.png",
     "coreBondIds": [
       "68157a62f34cacc0"
     ],
@@ -1298,7 +1298,7 @@
     "name": "锏",
     "tier": 6,
     "prototypeName": "郁金香(卫戍协议)",
-    "avatarPath": null,
+    "avatarPath": "avatars/18c848efd7a3d716060dac9a.png",
     "coreBondIds": [
       "74ee6ba0f38f7239"
     ],
@@ -1315,7 +1315,7 @@
     "name": "余",
     "tier": 6,
     "prototypeName": "Mechanist(卫戍协议)",
-    "avatarPath": null,
+    "avatarPath": "avatars/4523efce24c699d6badb521a.png",
     "coreBondIds": [
       "1fddc5a562ee1fbe"
     ],
@@ -1332,7 +1332,7 @@
     "name": "浊心斯卡蒂",
     "tier": 6,
     "prototypeName": "Raidian(卫戍协议)",
-    "avatarPath": null,
+    "avatarPath": "avatars/73220bdb8f7253adf4599551.png",
     "coreBondIds": [
       "ed8adb775b1976c8"
     ],
@@ -1347,7 +1347,7 @@
     "name": "娜仁图亚",
     "tier": 6,
     "prototypeName": "Stormeye(卫戍协议)",
-    "avatarPath": null,
+    "avatarPath": "avatars/4d0cf3acf95bae9dfbc24f6b.png",
     "coreBondIds": [
       "0d216d3f3f67773b"
     ],
@@ -1362,7 +1362,7 @@
     "name": "佩佩",
     "tier": 6,
     "prototypeName": "Sharp(卫戍协议)",
-    "avatarPath": null,
+    "avatarPath": "avatars/ffbc778febff8f0cf7071869.png",
     "coreBondIds": [
       "0d216d3f3f67773b"
     ],
@@ -1379,7 +1379,7 @@
     "name": "维娜·维多利亚",
     "tier": 6,
     "prototypeName": "领主·Sharp",
-    "avatarPath": null,
+    "avatarPath": "avatars/ccdfbf8f30ddab81ffd3f325.png",
     "coreBondIds": [
       "71be58c20db5e8e6"
     ],
@@ -1396,7 +1396,7 @@
     "name": "澄闪",
     "tier": 6,
     "prototypeName": "Pith(卫戍协议)",
-    "avatarPath": null,
+    "avatarPath": "avatars/7ec8a7278f64ee52e3164c47.png",
     "coreBondIds": [
       "71be58c20db5e8e6"
     ],
@@ -1411,7 +1411,7 @@
     "name": "纯烬艾雅法拉",
     "tier": 6,
     "prototypeName": "Touch(卫戍协议)",
-    "avatarPath": null,
+    "avatarPath": "avatars/06922531b68cefb3e72c9ab1.png",
     "coreBondIds": [],
     "additionalBondIds": [
       "3c75b25b30ac658f"
@@ -1426,7 +1426,7 @@
     "name": "死芒",
     "tier": 6,
     "prototypeName": "领主·Sharp",
-    "avatarPath": null,
+    "avatarPath": "avatars/900aa94c37372adce5b918c9.png",
     "coreBondIds": [],
     "additionalBondIds": [
       "758dc22908d4a313"
@@ -1441,7 +1441,7 @@
     "name": "缪尔赛思",
     "tier": 6,
     "prototypeName": "郁金香(卫戍协议)",
-    "avatarPath": null,
+    "avatarPath": "avatars/37cc2595897ba36f5b135045.png",
     "coreBondIds": [],
     "additionalBondIds": [
       "e440f765e809fcc4"
@@ -1456,7 +1456,7 @@
     "name": "伊芙利特",
     "tier": 6,
     "prototypeName": "Pith(卫戍协议)",
-    "avatarPath": null,
+    "avatarPath": "avatars/e5cc0bb853fe65e2b5f8802c.png",
     "coreBondIds": [],
     "additionalBondIds": [
       "815e5f6dcb3dac13"
@@ -1471,7 +1471,7 @@
     "name": "新约能天使",
     "tier": 6,
     "prototypeName": "Misery(卫戍协议)",
-    "avatarPath": null,
+    "avatarPath": "avatars/9e4111e120ef5ff314adf227.png",
     "coreBondIds": [
       "68157a62f34cacc0"
     ],
@@ -1486,7 +1486,7 @@
     "name": "流明",
     "tier": 6,
     "prototypeName": null,
-    "avatarPath": null,
+    "avatarPath": "avatars/010ee6d9c8b408071b1cf2bd.png",
     "coreBondIds": [],
     "additionalBondIds": [
       "7127b4d3dd34ca35",
@@ -1502,7 +1502,7 @@
     "name": "淬羽赫默",
     "tier": 6,
     "prototypeName": null,
-    "avatarPath": null,
+    "avatarPath": "avatars/f5e80e50011af71a6fadfe96.png",
     "coreBondIds": [],
     "additionalBondIds": [
       "ff1d8cb95582c06e",
@@ -1518,7 +1518,7 @@
     "name": "泥岩",
     "tier": 6,
     "prototypeName": "Mechanist(卫戍协议)",
-    "avatarPath": null,
+    "avatarPath": "avatars/ba5b9edef7c252fbcfd6f5a6.png",
     "coreBondIds": [],
     "additionalBondIds": [
       "cdeb08838442c081",
