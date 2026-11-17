@@ -8,6 +8,6 @@ export const assetUrl = (path:string) => `${import.meta.env.BASE_URL}${path.repl
 /** Extract only source-stated timing markers, ignoring struck-through text. */
 export function traitTiming(normal:string|null, elite:string|null):string {
  const text=[normal,elite].filter(Boolean).join('\n').replace(/<del\b[^>]*>[\s\S]*?<\/del>/gi,'');
- const timings=Array.from(text.matchAll(/<(获得时|售出时|战斗中|进入休整期时|休整期结束时)>/g), match=>match[1]);
+ const timings=Array.from(text.matchAll(/<(获得时|售出时|战斗中|进入休整期时|休整期结束时|战斗开始时|战斗结束时|刷新时|开启技能时|休整期开始时)>/g), match=>match[1]);
  return [...new Set(timings)].join(' / ') || '时机未标明';
 }

@@ -1,29 +1,26 @@
 {
   "source": [
     {
-      "url": "https://prts.wiki/w/%E5%8D%AB%E6%88%8D%E5%8D%8F%E8%AE%AE%EF%BC%9A%E7%9B%9F%E7%BA%A6/PRTS%E7%9B%9F%E7%BA%A6%E8%AE%B0%E5%BD%95",
-      "revisionId": 449018
+      "url": "https://prts.wiki/w/%E5%8D%AB%E6%88%8D%E5%8D%8F%E8%AE%AE%C2%B7%E8%A7%84%E7%A8%8B/PRTS%E7%9B%9F%E7%BA%A6%E8%AE%B0%E5%BD%95",
+      "revisionId": 450591
     }
   ],
-  "fetchedAt": "2026-11-17T04:13:51.032927+00:00",
+  "fetchedAt": "2026-11-17T05:11:19.154223+00:00",
   "counts": {
-    "bonds": 18,
-    "operators": 96,
+    "bonds": 26,
+    "operators": 143,
     "missingAvatars": 0
   },
   "tiers": {
-    "1": 15,
-    "2": 15,
-    "3": 14,
-    "4": 18,
-    "5": 18,
-    "6": 16
+    "1": 19,
+    "2": 24,
+    "3": 27,
+    "4": 27,
+    "5": 26,
+    "6": 20
   },
   "missingAvatars": [],
-  "missingEliteTraits": 9,
-  "unknownTemplates": [
-    "color",
-    "mdi"
-  ],
+  "missingEliteTraits": 11,
+  "unknownTemplates": [],
   "unresolvedBonds": []
 }

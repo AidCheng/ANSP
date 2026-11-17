@@ -10,5 +10,6 @@ describe('trait timing',()=>{
   expect(traitTiming('<del><获得时>旧效果</del>\n<战斗中>新效果',null)).toBe('战斗中');
   expect(traitTiming('<获得时>效果','<获得时>效果')).toBe('获得时');
   expect(traitTiming('没有时机标记',null)).toBe('时机未标明');
+  expect(traitTiming('<刷新时>刷新效果',null)).toBe('刷新时');
  });
 });

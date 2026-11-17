@@ -97,9 +97,11 @@ def main():
                 time.sleep(2**attempt)
     page=next(iter(data['query']['pages'].values())); rev=page['revisions'][0]; text=rev['slots']['main']['*']; bonds,operators,meta=parse(text,config,rev['revid'])
     # Carry forward successfully verified local images by stable ID; a later image sync refreshes mappings.
+    previous_meta=ROOT/'public/data/metadata.json'
+    same_dataset=previous_meta.exists() and json.loads(previous_meta.read_text()).get('datasetId') == config['datasetId']
     for filename,records,field in [('bonds',bonds,'iconPath'),('operators',operators,'avatarPath')]:
         path=ROOT/'public/data'/f'{filename}.json'
-        if path.exists():
+        if same_dataset and path.exists():
             old={x['id']:x.get(field) for x in json.loads(path.read_text())}
             for record in records:
                 value=old.get(record['id'])

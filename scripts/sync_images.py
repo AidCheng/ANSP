@@ -6,10 +6,10 @@ from bs4 import BeautifulSoup
 ROOT=Path(__file__).resolve().parent.parent
 HEADERS={'User-Agent':'SweepLookup/1.0 (local static research; contact site maintainer)'}
 
-def read_url(url, retries=3):
+def read_url(url, retries=3, timeout=20):
     for attempt in range(retries):
         try:
-            with urllib.request.urlopen(urllib.request.Request(url,headers=HEADERS),timeout=20) as response:
+            with urllib.request.urlopen(urllib.request.Request(url,headers=HEADERS),timeout=timeout) as response:
                 data=response.read(8*1024*1024+1)
                 if len(data)>8*1024*1024: raise ValueError('Response exceeds 8 MB')
                 return data
@@ -50,7 +50,7 @@ def save_json(path,obj):
     tmp=path.with_suffix(path.suffix+'.tmp'); tmp.write_text(json.dumps(obj,ensure_ascii=False,indent=2)+'\n'); tmp.replace(path)
 
 def main():
-    ap=argparse.ArgumentParser();ap.add_argument('--html',help='Use previously saved source HTML (must match the data revision)'); ap.add_argument('--delay',type=float,default=0.3);args=ap.parse_args()
+    ap=argparse.ArgumentParser();ap.add_argument('--html',help='Use previously saved source HTML (must match the data revision)'); ap.add_argument('--delay',type=float,default=0.3); ap.add_argument('--offline',action='store_true',help='Only reuse verified cached images');args=ap.parse_args()
     directory=ROOT/'public/data'; bonds=json.loads((directory/'bonds.json').read_text()); operators=json.loads((directory/'operators.json').read_text()); meta=json.loads((directory/'metadata.json').read_text())
     page=meta['sourcePages'][0]; revision=page['revisionId']
     if not isinstance(revision,int): raise ValueError('Data revision is not available')
@@ -59,11 +59,19 @@ def main():
     mapping,errors=extract(html,bonds,operators,revision)
     previous_path=ROOT/'data/reports/images.json'
     previous=json.loads(previous_path.read_text()) if previous_path.exists() else {}
-    cached=previous.get('files',{}); files={}; resolved={}; downloads={}
-    for key,record in cached.items():
-        path=record.get('path')
-        if path and (ROOT/'public'/path).is_file() and hashlib.sha256((ROOT/'public'/path).read_bytes()).hexdigest()==record.get('sha256'):
-            files[key]=record
+    cached=dict(previous.get('files',{})); files={}; resolved={}; downloads={}
+    progress_path=ROOT/'.cache/image-progress.json'
+    if progress_path.exists():
+        progress=json.loads(progress_path.read_text())
+        if progress.get('revisionId')==revision: cached.update(progress.get('files',{}))
+    progress_path.parent.mkdir(parents=True,exist_ok=True)
+    # Reuse verified identical source images across dataset IDs, without carrying
+    # old dataset entries into the new report.
+    for record in cached.values():
+        path=record.get('path'); source=record.get('url')
+        if path and source and (ROOT/'public'/path).is_file():
+            digest=hashlib.sha256((ROOT/'public'/path).read_bytes()).hexdigest()
+            if digest==record.get('sha256'): downloads[source]=(path,digest)
     for key,image_url in mapping.items():
         parsed=urllib.parse.urlparse(image_url)
         if parsed.scheme!='https' or parsed.hostname!='media.prts.wiki': errors.append({'key':key,'reason':'untrusted image host'}); continue
@@ -72,10 +80,16 @@ def main():
         if old.get('url')==image_url and old.get('path') and (ROOT/'public'/old['path']).is_file():
             path=old['path']; digest=hashlib.sha256((ROOT/'public'/path).read_bytes()).hexdigest()
             if digest==old.get('sha256'): resolved[key]=downloads[image_url]=(path,digest); continue
+        if args.offline:
+            errors.append({'key':key,'url':image_url,'reason':'not available in verified cache'})
+            continue
         try:
-            content=read_url(image_url); ext=extension(content); digest=hashlib.sha256(content).hexdigest(); folder='icons' if key.startswith('bond:') else 'avatars'; path=f'{folder}/{digest[:24]}{ext}'
+            content=read_url(image_url,retries=2,timeout=5); ext=extension(content); digest=hashlib.sha256(content).hexdigest(); folder='icons' if key.startswith('bond:') else 'avatars'; path=f'{folder}/{digest[:24]}{ext}'
             destination=ROOT/'public'/path; destination.parent.mkdir(parents=True,exist_ok=True); tmp=destination.with_suffix(destination.suffix+'.tmp'); tmp.write_bytes(content); tmp.replace(destination)
-            resolved[key]=downloads[image_url]=(path,digest); print(f'{key}: {path}',flush=True)
+            resolved[key]=downloads[image_url]=(path,digest)
+            cached[key]={'path':path,'url':image_url,'sha256':digest}
+            save_json(progress_path,{'revisionId':revision,'files':cached})
+            print(f'{key}: {path}',flush=True)
         except Exception as e: errors.append({'key':key,'url':image_url,'reason':str(e)}); print(f'{key}: {e}',file=sys.stderr,flush=True)
         time.sleep(max(0.3,args.delay))
     for key,(path,digest) in resolved.items(): files[key]={'path':path,'url':mapping[key],'sha256':digest}

@@ -4,8 +4,8 @@
     "name": "炎",
     "category": "core",
     "activationCount": 3,
-    "effectText": "【炎】干员攻击力+(23+0.9×层数)%\n<在场6名不同【炎】干员>战斗开始时召唤可自主行动的“炎佑”（其攻击力和生命值为【炎】干员攻击力和生命值总和的30%）；“炎佑”攻击附带伤害20%的灼燃损伤，周围敌人受到20%的元素脆弱，周期性使用“祛恶之焰”",
-    "sourceUrl": "https://prts.wiki/w/%E5%8D%AB%E6%88%8D%E5%8D%8F%E8%AE%AE%EF%BC%9A%E7%9B%9F%E7%BA%A6/PRTS%E7%9B%9F%E7%BA%A6%E8%AE%B0%E5%BD%95",
+    "effectText": "【炎】干员攻击力+(23+0.9×层数)%\n<在场6名不同的【炎】干员>战斗开始时，【炎】干员每次攻击时造成攻击力6%的随机元素损伤；全场敌人元素损伤恢复速度增加(40+0.3×层数)%",
+    "sourceUrl": "https://prts.wiki/w/%E5%8D%AB%E6%88%8D%E5%8D%8F%E8%AE%AE%C2%B7%E8%A7%84%E7%A8%8B/PRTS%E7%9B%9F%E7%BA%A6%E8%AE%B0%E5%BD%95",
     "iconPath": "icons/ba53c1306203f48fbf58e7c2.png"
   },
   {
@@ -13,8 +13,8 @@
     "name": "萨尔贡",
     "category": "core",
     "activationCount": 3,
-    "effectText": "【萨尔贡】干员开启技能时，所有【萨尔贡】干员攻击速度+12（至多+300），持续(5+0.22×层数)秒（每层持续时间独立计算）\n<在场6不同【萨尔贡】干员>开启技能还会使所有【萨尔贡】干员攻击力+12%（至多+300%）",
-    "sourceUrl": "https://prts.wiki/w/%E5%8D%AB%E6%88%8D%E5%8D%8F%E8%AE%AE%EF%BC%9A%E7%9B%9F%E7%BA%A6/PRTS%E7%9B%9F%E7%BA%A6%E8%AE%B0%E5%BD%95",
+    "effectText": "【萨尔贡】干员开启技能时，所有【萨尔贡】干员攻击速度+12（至多+300），持续(5+0.22×层数)秒\n<在场6名不同的【萨尔贡】干员>【萨尔贡】干员每次开启技能时，在攻击范围内制造一个流沙地面。位于流沙地面上的敌人受到(20+0.025×层数)%的迟钝效果，每5秒造成一次(5000+25×层数)点法术伤害并束缚1秒；【萨尔贡】干员技能持续期间，攻击范围内的流沙地面使敌人的迟钝效果变为2倍，每秒受到(800+4×层数)点法术伤害",
+    "sourceUrl": "https://prts.wiki/w/%E5%8D%AB%E6%88%8D%E5%8D%8F%E8%AE%AE%C2%B7%E8%A7%84%E7%A8%8B/PRTS%E7%9B%9F%E7%BA%A6%E8%AE%B0%E5%BD%95",
     "iconPath": "icons/1e4d5cf3dbb6f530e04b6798.png"
   },
   {
@@ -22,8 +22,8 @@
     "name": "维多利亚",
     "category": "core",
     "activationCount": 3,
-    "effectText": "携带装备的【维多利亚】干员造成的伤害提升至(120+0.8×层数)%\n<每叠加25层>获得1件随机效果的维式重锤\n<在场6名不同【维多利亚】干员>所有携带装备的【维多利亚】干员攻击力+80%",
-    "sourceUrl": "https://prts.wiki/w/%E5%8D%AB%E6%88%8D%E5%8D%8F%E8%AE%AE%EF%BC%9A%E7%9B%9F%E7%BA%A6/PRTS%E7%9B%9F%E7%BA%A6%E8%AE%B0%E5%BD%95",
+    "effectText": "携带装备的【维多利亚】干员伤害提升至(125+0.8×层数)%\n<每叠加25层>获得一件带有随机特殊效果的维式重锤\n<在场6名不同【维多利亚】干员>【维多利亚】干员每携带1件装备攻击力+40%，携带进阶装备改为+80%",
+    "sourceUrl": "https://prts.wiki/w/%E5%8D%AB%E6%88%8D%E5%8D%8F%E8%AE%AE%C2%B7%E8%A7%84%E7%A8%8B/PRTS%E7%9B%9F%E7%BA%A6%E8%AE%B0%E5%BD%95",
     "iconPath": "icons/24c87e7c26aa9e43acd77fe8.png"
   },
   {
@@ -31,134 +31,206 @@
     "name": "谢拉格",
     "category": "core",
     "activationCount": 3,
-    "effectText": "【谢拉格】干员造成的伤害提升至130%，对寒冷、冻结敌人额外提升至(135+1×层数)%\n<在场6名不同【谢拉格】干员>战场上每25秒过一阵寒风使场上的敌人寒冷(20+0.1×层数)秒",
-    "sourceUrl": "https://prts.wiki/w/%E5%8D%AB%E6%88%8D%E5%8D%8F%E8%AE%AE%EF%BC%9A%E7%9B%9F%E7%BA%A6/PRTS%E7%9B%9F%E7%BA%A6%E8%AE%B0%E5%BD%95",
+    "effectText": "【谢拉格】干员伤害提升至125%，对寒冷和冻结敌人额外提升至(135+1×层数)%\n<每叠加100层>获得一件谢拉格不融冰\n<在场6名不同的【谢拉格】干员>战斗开始时召唤可自主行动的雪山巨人，其攻击力和生命值随谢拉格层数提升而提升。雪山巨人将在巨人和雪山形态转换，雪山形态可以阻挡敌人并造成溅射伤害，雪山形态攻击被冻结的敌人时造成高额法术伤害并解除目标的冻结状态；巨人形态可以移动并对敌人造成远程溅射伤害",
+    "sourceUrl": "https://prts.wiki/w/%E5%8D%AB%E6%88%8D%E5%8D%8F%E8%AE%AE%C2%B7%E8%A7%84%E7%A8%8B/PRTS%E7%9B%9F%E7%BA%A6%E8%AE%B0%E5%BD%95",
     "iconPath": "icons/e3f3aa678d800b89e67c2d9d.png"
-  },
-  {
-    "id": "68157a62f34cacc0",
-    "name": "拉特兰",
-    "category": "core",
-    "activationCount": 3,
-    "effectText": "【拉特兰】干员开启技能获得的弹药量+(5+1.5×层数)%（会取整）\n<在场6名不同【拉特兰】干员>【拉特兰】干员每消耗1发弹药，所有【拉特兰】干员攻击力+4%，至多+180%",
-    "sourceUrl": "https://prts.wiki/w/%E5%8D%AB%E6%88%8D%E5%8D%8F%E8%AE%AE%EF%BC%9A%E7%9B%9F%E7%BA%A6/PRTS%E7%9B%9F%E7%BA%A6%E8%AE%B0%E5%BD%95",
-    "iconPath": "icons/a4a68139505073742b19315d.png"
   },
   {
     "id": "ed8adb775b1976c8",
     "name": "阿戈尔",
     "category": "core",
     "activationCount": 3,
-    "effectText": "【阿戈尔】干员生命值+(35+1×层数)%\n战斗开始时，【阿戈尔】干员会吞噬身前一格干员以及被自身吞噬的【阿戈尔】干员身前一格干员对其造成6000点物理流失并获得其基础攻击力和阻挡数，使【阿戈尔】叠加等于被吞噬者等阶的盟约层数（【阿戈尔】之间优先更靠下和靠左的干员发起吞噬）\n<在场5名不同【阿戈尔】干员>前2名【阿戈尔】干员首次被击倒时立刻复活\n※从最先部署（更靠下和靠左的）的【阿戈尔】干员开始，其对其“身前一格干员（自身携带【海沟实验体】的场合，改为周围四格的干员）”与“有自身标记的【阿戈尔】干员的身前一格干员（该【阿戈尔】干员携带【海沟实验体】的场合，改为周围四格的干员）”付与自身标记（不会向“自身”/“自身已付与过标记的单位”/“已将标记付与自身的单位”付与自身标记）；该付与来源获得所有标记单位的基础攻击力（最终加算）和阻挡数。所有【阿戈尔】干员完成标记后，每个标记令被付与目标受到一次6000点物理流失的【吞噬】效果；每个被【吞噬】的目标仅叠加1次等同于自身等阶的【阿戈尔】盟约层数（下回合刷新次数）\n※标记按付与顺序触发【吞噬】效果，目标首次被击倒后解除自身被付与但还未触发的【吞噬】效果\n※【吞噬】的物理流失来源为被付与目标自身；单位被【吞噬】击杀时，击杀来源始终为对应标记的付与来源\n※“复活”的实现方式为：受益者因移动之外的原因退场时下次部署的再部署时间和费用归零",
-    "sourceUrl": "https://prts.wiki/w/%E5%8D%AB%E6%88%8D%E5%8D%8F%E8%AE%AE%EF%BC%9A%E7%9B%9F%E7%BA%A6/PRTS%E7%9B%9F%E7%BA%A6%E8%AE%B0%E5%BD%95",
+    "effectText": "【阿戈尔】干员生命值+(35+1×层数)%\n战斗开始时【阿戈尔】干员依次吞噬身前一格干员造成5000点物理伤害并获得其基础攻击力和阻挡数，并叠加等于被吞噬者等阶的盟约层数（【阿戈尔】之间优先对更靠左和靠上的干员发起吞噬）\n<在场6名不同【阿戈尔】干员>前3名【阿戈尔】干员首次被击倒时立刻复活",
+    "sourceUrl": "https://prts.wiki/w/%E5%8D%AB%E6%88%8D%E5%8D%8F%E8%AE%AE%C2%B7%E8%A7%84%E7%A8%8B/PRTS%E7%9B%9F%E7%BA%A6%E8%AE%B0%E5%BD%95",
     "iconPath": "icons/9df4167c1f14a12686e5f285.png"
   },
   {
-    "id": "3ede97245872e27c",
-    "name": "投资人",
-    "category": "additional",
+    "id": "bfbbd41354b9d6c7",
+    "name": "叙拉古",
+    "category": "core",
     "activationCount": 3,
-    "effectText": "干员的“获得时”类特质每次触发2次\n<达到70层>“获得时”类特质每次触发3次（整备区的【投资人】干员也可用于激活盟约）",
-    "sourceUrl": "https://prts.wiki/w/%E5%8D%AB%E6%88%8D%E5%8D%8F%E8%AE%AE%EF%BC%9A%E7%9B%9F%E7%BA%A6/PRTS%E7%9B%9F%E7%BA%A6%E8%AE%B0%E5%BD%95",
-    "iconPath": "icons/5bf9f5df4fba966c844d5113.png"
+    "effectText": "【叙拉古】干员部署后攻击速度+(25+0.8×层数)，持续(32+0.4×层数)秒\n<在场6名不同的【叙拉古】干员>每次攻击时有30%概率为敌人随机附加一个异常状态，持续(1+0.0018×层数)秒；敌人存在2种或以上异常状态时，每秒对自身及周围一定范围内的敌人造成(800+10×层数)点真实伤害",
+    "sourceUrl": "https://prts.wiki/w/%E5%8D%AB%E6%88%8D%E5%8D%8F%E8%AE%AE%C2%B7%E8%A7%84%E7%A8%8B/PRTS%E7%9B%9F%E7%BA%A6%E8%AE%B0%E5%BD%95",
+    "iconPath": "icons/3050b0e11eae231f89b37533.png"
   },
   {
-    "id": "e440f765e809fcc4",
-    "name": "调和",
-    "category": "additional",
-    "activationCount": 1,
-    "effectText": "【调和】可以使场上核心盟约（【炎】【萨尔贡】【维多利亚】【谢拉格】【拉特兰】【阿戈尔】）的激活人数+1，【调和】干员享受以上激活盟约的效果",
-    "sourceUrl": "https://prts.wiki/w/%E5%8D%AB%E6%88%8D%E5%8D%8F%E8%AE%AE%EF%BC%9A%E7%9B%9F%E7%BA%A6/PRTS%E7%9B%9F%E7%BA%A6%E8%AE%B0%E5%BD%95",
-    "iconPath": "icons/3a3ddb71501ffd126e415f6f.png"
+    "id": "680419a9dcd9bea1",
+    "name": "卡西米尔",
+    "category": "core",
+    "activationCount": 3,
+    "effectText": "每次有干员部署时【卡西米尔】干员攻击力+20%（至多+(50+1×层数)%），持续至战斗结束\n<在场6名不同的【卡西米尔】干员>【卡西米尔】地面干员被击倒时离场并召唤整备区最右侧【卡西米尔】干员加入战斗（不改变当前盟约的激活状态）；【卡西米尔】干员开启技能或部署后30秒内攻击时附带攻击力65%的真实伤害",
+    "sourceUrl": "https://prts.wiki/w/%E5%8D%AB%E6%88%8D%E5%8D%8F%E8%AE%AE%C2%B7%E8%A7%84%E7%A8%8B/PRTS%E7%9B%9F%E7%BA%A6%E8%AE%B0%E5%BD%95",
+    "iconPath": "icons/fe42cba23b7e0b6e69479d59.png"
   },
   {
-    "id": "7ffc44fb11135128",
-    "name": "远见",
-    "category": "additional",
-    "activationCount": 2,
-    "effectText": "<每叠加10层>获得2资金\n<首次达到100层>调度中心内所有干员的购买价格永久减少1资金（整备区的【远见】干员也可用于激活盟约）",
-    "sourceUrl": "https://prts.wiki/w/%E5%8D%AB%E6%88%8D%E5%8D%8F%E8%AE%AE%EF%BC%9A%E7%9B%9F%E7%BA%A6/PRTS%E7%9B%9F%E7%BA%A6%E8%AE%B0%E5%BD%95",
-    "iconPath": "icons/a096afb615f13830489ade96.png"
+    "id": "bde9bfb3a748e33c",
+    "name": "乌萨斯",
+    "category": "core",
+    "activationCount": 3,
+    "effectText": "【乌萨斯】干员攻击力+(35+0.75×层数)%，生命值+(10+0.3×层数)%，【乌萨斯】干员击倒其他单位时为【乌萨斯】叠加2层临时层数\n<在场6名不同的【乌萨斯】干员>【乌萨斯】干员受到伤害的(15+0.05×层数)%转化为10秒的生命流失，当伤害来源被击倒时不再流失生命；阻挡敌人期间，敌人每秒受到相当于攻击力(50+0.25×层数)%的法术伤害；【乌萨斯】干员击倒其他单位时叠加的临时层数提升至4层",
+    "sourceUrl": "https://prts.wiki/w/%E5%8D%AB%E6%88%8D%E5%8D%8F%E8%AE%AE%C2%B7%E8%A7%84%E7%A8%8B/PRTS%E7%9B%9F%E7%BA%A6%E8%AE%B0%E5%BD%95",
+    "iconPath": "icons/4043b723f96520acc3614d3c.png"
+  },
+  {
+    "id": "830f950b1de7b094",
+    "name": "伊比利亚",
+    "category": "core",
+    "activationCount": 3,
+    "effectText": "【伊比利亚】干员或炼金单元每次造成伤害时，使目标每秒受到(11+0.06×层数)%攻击力（至多叠加10次）的持续法术伤害，持续10秒\n<在场6名不同的【伊比利亚】干员>【伊比利亚】干员或炼金单元造成伤害时附带的持续法术伤害提升至2倍，并使目标移动速度-4%（至多-80%），持续10秒；【伊比利亚】干员或炼金单元每次造成伤害时有20%概率弹射到周围一定范围内的敌人造成300%攻击力的法术伤害",
+    "sourceUrl": "https://prts.wiki/w/%E5%8D%AB%E6%88%8D%E5%8D%8F%E8%AE%AE%C2%B7%E8%A7%84%E7%A8%8B/PRTS%E7%9B%9F%E7%BA%A6%E8%AE%B0%E5%BD%95",
+    "iconPath": "icons/1c202f556a287b1e3971514b.png"
+  },
+  {
+    "id": "432e35397f3a2ac1",
+    "name": "莱塔尼亚",
+    "category": "core",
+    "activationCount": 3,
+    "effectText": "【莱塔尼亚】干员和召唤物攻击力+(30+1×层数)%，场上敌人被击倒时在附近召唤“一个小节”（场上最多存在10个）\n<在场6名不同的【莱塔尼亚】干员>召唤“一个小节”时(30+0.1×层数)%概率改为召唤“一个乐部”，在场时使【莱塔尼亚】干员攻速+20；场上【莱塔尼亚】召唤物上限提升至20；场上我方干员被击倒时会额外召唤“一个小节”",
+    "sourceUrl": "https://prts.wiki/w/%E5%8D%AB%E6%88%8D%E5%8D%8F%E8%AE%AE%C2%B7%E8%A7%84%E7%A8%8B/PRTS%E7%9B%9F%E7%BA%A6%E8%AE%B0%E5%BD%95",
+    "iconPath": "icons/54d5ff6d55198c33b4746738.png"
   },
   {
     "id": "815e5f6dcb3dac13",
     "name": "精准",
     "category": "additional",
     "activationCount": 2,
-    "effectText": "高台干员攻击力+(10+1.2×层数)%\n<在场3名不同【精准】干员>高台干员攻击无视30%防御力和法术抗性，且攻击使目标失去特殊能力2秒",
-    "sourceUrl": "https://prts.wiki/w/%E5%8D%AB%E6%88%8D%E5%8D%8F%E8%AE%AE%EF%BC%9A%E7%9B%9F%E7%BA%A6/PRTS%E7%9B%9F%E7%BA%A6%E8%AE%B0%E5%BD%95",
+    "effectText": "【精准】干员攻击力+(10+1.2×层数)%\n<在场3名不同【精准】干员>生效范围变为【精准】干员和所有远程干员，且攻击无视30%防御力和法术抗性",
+    "sourceUrl": "https://prts.wiki/w/%E5%8D%AB%E6%88%8D%E5%8D%8F%E8%AE%AE%C2%B7%E8%A7%84%E7%A8%8B/PRTS%E7%9B%9F%E7%BA%A6%E8%AE%B0%E5%BD%95",
     "iconPath": "icons/516ff7f17f8f03187c75c1f0.png"
-  },
-  {
-    "id": "cdeb08838442c081",
-    "name": "坚守",
-    "category": "additional",
-    "activationCount": 2,
-    "effectText": "所有干员生命值+(30+1.25×层数)%\n<在场3名不同【坚守】干员>场上非【坚守】干员受到伤害时，所受伤害的40%由所有【坚守】干员平均承担",
-    "sourceUrl": "https://prts.wiki/w/%E5%8D%AB%E6%88%8D%E5%8D%8F%E8%AE%AE%EF%BC%9A%E7%9B%9F%E7%BA%A6/PRTS%E7%9B%9F%E7%BA%A6%E8%AE%B0%E5%BD%95",
-    "iconPath": "icons/b0c3c91ebadec09e9038d214.png"
-  },
-  {
-    "id": "7c519f93ee535d45",
-    "name": "突袭",
-    "category": "additional",
-    "activationCount": 2,
-    "effectText": "【突袭】干员技能就绪时，若范围内没有敌人，则立即再部署至一名地面敌人周围并释放技能，技能期间攻击力和生命值+(10+1×层数)%\n<激活时>所有干员的部署费用-50%",
-    "sourceUrl": "https://prts.wiki/w/%E5%8D%AB%E6%88%8D%E5%8D%8F%E8%AE%AE%EF%BC%9A%E7%9B%9F%E7%BA%A6/PRTS%E7%9B%9F%E7%BA%A6%E8%AE%B0%E5%BD%95",
-    "iconPath": "icons/c2b2efa2ff1e892dddf8cbdf.png"
-  },
-  {
-    "id": "3d5ab1bf0b23dfde",
-    "name": "奇迹",
-    "category": "additional",
-    "activationCount": 2,
-    "effectText": "刷新调度中心时，有(25+0.3×层数)%概率使下次刷新不消耗资金\n<每叠加50层>获得10资金（整备区的【奇迹】干员也可用于激活盟约）",
-    "sourceUrl": "https://prts.wiki/w/%E5%8D%AB%E6%88%8D%E5%8D%8F%E8%AE%AE%EF%BC%9A%E7%9B%9F%E7%BA%A6/PRTS%E7%9B%9F%E7%BA%A6%E8%AE%B0%E5%BD%95",
-    "iconPath": "icons/7c5622e06655f398a7ea4105.png"
-  },
-  {
-    "id": "13f97cb5baa4b5cb",
-    "name": "不屈",
-    "category": "additional",
-    "activationCount": 2,
-    "effectText": "地面干员被击倒、撤退、切换<替身>与<本体>时，有(18+0.4×层数)%概率立即重新部署\n<在场3名不同【不屈】干员>地面干员被击倒时使场上所有干员技力+5\n※“立刻重新部署”的实现方式为：受益者退场时下次部署的再部署时间和费用归零\n※持有“复活”效果时，即使触发了不屈的“重新部署”效果，也还是会消耗一次“复活”次数",
-    "sourceUrl": "https://prts.wiki/w/%E5%8D%AB%E6%88%8D%E5%8D%8F%E8%AE%AE%EF%BC%9A%E7%9B%9F%E7%BA%A6/PRTS%E7%9B%9F%E7%BA%A6%E8%AE%B0%E5%BD%95",
-    "iconPath": "icons/a268c96a226cd1f1e99c5cdf.png"
   },
   {
     "id": "758dc22908d4a313",
     "name": "迅捷",
     "category": "additional",
     "activationCount": 2,
-    "effectText": "【迅捷】干员技能结束时有(20+0.35×层数)%概率立刻回复10点技力\n<达到40层>所有干员技能结束时有等概率额外回复15点技力",
-    "sourceUrl": "https://prts.wiki/w/%E5%8D%AB%E6%88%8D%E5%8D%8F%E8%AE%AE%EF%BC%9A%E7%9B%9F%E7%BA%A6/PRTS%E7%9B%9F%E7%BA%A6%E8%AE%B0%E5%BD%95",
+    "effectText": "【迅捷】干员技能结束时有(20+0.35×层数)%概率立刻回复12点技力\n<达到40层>所有干员技能结束时有等概率额外回复15点技力",
+    "sourceUrl": "https://prts.wiki/w/%E5%8D%AB%E6%88%8D%E5%8D%8F%E8%AE%AE%C2%B7%E8%A7%84%E7%A8%8B/PRTS%E7%9B%9F%E7%BA%A6%E8%AE%B0%E5%BD%95",
     "iconPath": "icons/e3c38cefb5724f7210dde497.png"
-  },
-  {
-    "id": "7127b4d3dd34ca35",
-    "name": "助力",
-    "category": "additional",
-    "activationCount": 2,
-    "effectText": "所有干员防御力+(15+1.2×层数)%，再部署时间-30%\n休整期结束时，使当前所有已激活盟约层数+2\n<在场3名不同【助力】干员>改为层数+4",
-    "sourceUrl": "https://prts.wiki/w/%E5%8D%AB%E6%88%8D%E5%8D%8F%E8%AE%AE%EF%BC%9A%E7%9B%9F%E7%BA%A6/PRTS%E7%9B%9F%E7%BA%A6%E8%AE%B0%E5%BD%95",
-    "iconPath": "icons/c01b2d7a458d92a5e0378487.png"
   },
   {
     "id": "ff1d8cb95582c06e",
     "name": "灵巧",
     "category": "additional",
     "activationCount": 2,
-    "effectText": "【灵巧】干员及周围8格干员攻击速度+(10+1×层数)\n<达到20层>每个休整期首次主动刷新的装备购买价格降低为1",
-    "sourceUrl": "https://prts.wiki/w/%E5%8D%AB%E6%88%8D%E5%8D%8F%E8%AE%AE%EF%BC%9A%E7%9B%9F%E7%BA%A6/PRTS%E7%9B%9F%E7%BA%A6%E8%AE%B0%E5%BD%95",
+    "effectText": "【灵巧】干员及周围4格的干员攻击速度+(10+1×层数)\n<达到40层>生效范围变为【灵巧】干员周围8格",
+    "sourceUrl": "https://prts.wiki/w/%E5%8D%AB%E6%88%8D%E5%8D%8F%E8%AE%AE%C2%B7%E8%A7%84%E7%A8%8B/PRTS%E7%9B%9F%E7%BA%A6%E8%AE%B0%E5%BD%95",
     "iconPath": "icons/24b231135e923a38016fa57f.png"
+  },
+  {
+    "id": "cdeb08838442c081",
+    "name": "坚守",
+    "category": "additional",
+    "activationCount": 2,
+    "effectText": "所有干员生命值+(25+1.2×层数)%\n<在场3名不同【坚守】干员>场上非【坚守】干员受到伤害时，所受伤害的40%由【坚守】干员平均承担；【坚守】干员受到伤害时，伤害来源受到(850+10×层数)点法术伤害（每0.2秒至多触发1次）和持续5秒的40%的脆弱效果",
+    "sourceUrl": "https://prts.wiki/w/%E5%8D%AB%E6%88%8D%E5%8D%8F%E8%AE%AE%C2%B7%E8%A7%84%E7%A8%8B/PRTS%E7%9B%9F%E7%BA%A6%E8%AE%B0%E5%BD%95",
+    "iconPath": "icons/b0c3c91ebadec09e9038d214.png"
+  },
+  {
+    "id": "7127b4d3dd34ca35",
+    "name": "助力",
+    "category": "additional",
+    "activationCount": 2,
+    "effectText": "所有干员防御力+(15+1.2×层数)%，再部署时间-30%\n休整期结束时，使当前所有已激活的盟约层数+2\n<在场3名不同【助力】干员>改为层数+4",
+    "sourceUrl": "https://prts.wiki/w/%E5%8D%AB%E6%88%8D%E5%8D%8F%E8%AE%AE%C2%B7%E8%A7%84%E7%A8%8B/PRTS%E7%9B%9F%E7%BA%A6%E8%AE%B0%E5%BD%95",
+    "iconPath": "icons/c01b2d7a458d92a5e0378487.png"
+  },
+  {
+    "id": "7ffc44fb11135128",
+    "name": "远见",
+    "category": "additional",
+    "activationCount": 2,
+    "effectText": "<每叠加10层>获得一次2资金\n<首次到达80层>所有【远见】干员购买价格永久-1资金\n<首次到达150层>所有【远见】干员购买价格额外永久-1资金\n整备区的【远见】干员也可用于激活盟约",
+    "sourceUrl": "https://prts.wiki/w/%E5%8D%AB%E6%88%8D%E5%8D%8F%E8%AE%AE%C2%B7%E8%A7%84%E7%A8%8B/PRTS%E7%9B%9F%E7%BA%A6%E8%AE%B0%E5%BD%95",
+    "iconPath": "icons/a096afb615f13830489ade96.png"
+  },
+  {
+    "id": "3d5ab1bf0b23dfde",
+    "name": "奇迹",
+    "category": "additional",
+    "activationCount": 2,
+    "effectText": "刷新调度中心时，有(18+0.25×层数)%概率使下次刷新不消耗资金\n<首次到达100层>调度中心刷新时至少出现一名等同于当前调度中心等级的干员\n整备区的【奇迹】干员也可用于激活盟约",
+    "sourceUrl": "https://prts.wiki/w/%E5%8D%AB%E6%88%8D%E5%8D%8F%E8%AE%AE%C2%B7%E8%A7%84%E7%A8%8B/PRTS%E7%9B%9F%E7%BA%A6%E8%AE%B0%E5%BD%95",
+    "iconPath": "icons/7c5622e06655f398a7ea4105.png"
+  },
+  {
+    "id": "3ede97245872e27c",
+    "name": "投资人",
+    "category": "additional",
+    "activationCount": 3,
+    "effectText": "干员的“获得时”类特质每次触发2次\n<达到100层>“获得时”类特质每次触发3次\n整备区的【投资人】干员也可用于激活盟约",
+    "sourceUrl": "https://prts.wiki/w/%E5%8D%AB%E6%88%8D%E5%8D%8F%E8%AE%AE%C2%B7%E8%A7%84%E7%A8%8B/PRTS%E7%9B%9F%E7%BA%A6%E8%AE%B0%E5%BD%95",
+    "iconPath": "icons/5bf9f5df4fba966c844d5113.png"
+  },
+  {
+    "id": "7c519f93ee535d45",
+    "name": "突袭",
+    "category": "additional",
+    "activationCount": 2,
+    "effectText": "【突袭】干员10秒内未进行攻击或技能就绪时，若范围内没有敌人，则保留技力立即再部署至一名地面敌人周围，期间攻击力和生命值+(25+1×层数)%\n<达到50层>所有干员攻击速度+50",
+    "sourceUrl": "https://prts.wiki/w/%E5%8D%AB%E6%88%8D%E5%8D%8F%E8%AE%AE%C2%B7%E8%A7%84%E7%A8%8B/PRTS%E7%9B%9F%E7%BA%A6%E8%AE%B0%E5%BD%95",
+    "iconPath": "icons/c2b2efa2ff1e892dddf8cbdf.png"
+  },
+  {
+    "id": "13f97cb5baa4b5cb",
+    "name": "不屈",
+    "category": "additional",
+    "activationCount": 2,
+    "effectText": "地面干员被击倒时，有(18+0.4×层数)%概率立刻重新部署\n<在场3名不同【不屈】干员>地面干员被击倒时使场上所有干员技力+5",
+    "sourceUrl": "https://prts.wiki/w/%E5%8D%AB%E6%88%8D%E5%8D%8F%E8%AE%AE%C2%B7%E8%A7%84%E7%A8%8B/PRTS%E7%9B%9F%E7%BA%A6%E8%AE%B0%E5%BD%95",
+    "iconPath": "icons/a268c96a226cd1f1e99c5cdf.png"
+  },
+  {
+    "id": "e440f765e809fcc4",
+    "name": "调和",
+    "category": "additional",
+    "activationCount": 1,
+    "effectText": "激活时可以使场上核心盟约的激活人数+1，【调和】干员享受已激活的核心盟约的效果",
+    "sourceUrl": "https://prts.wiki/w/%E5%8D%AB%E6%88%8D%E5%8D%8F%E8%AE%AE%C2%B7%E8%A7%84%E7%A8%8B/PRTS%E7%9B%9F%E7%BA%A6%E8%AE%B0%E5%BD%95",
+    "iconPath": "icons/3a3ddb71501ffd126e415f6f.png"
   },
   {
     "id": "3c75b25b30ac658f",
     "name": "协防干员",
     "category": "additional",
-    "activationCount": 3,
-    "effectText": "所有干员受到的物理和法术伤害-20%，造成伤害提升至120%，若为精锐状态则改为造成伤害提升至140%\n※11月25日更新后新增伤害提升效果",
-    "sourceUrl": "https://prts.wiki/w/%E5%8D%AB%E6%88%8D%E5%8D%8F%E8%AE%AE%EF%BC%9A%E7%9B%9F%E7%BA%A6/PRTS%E7%9B%9F%E7%BA%A6%E8%AE%B0%E5%BD%95",
+    "activationCount": 2,
+    "effectText": "所有干员受到的物理和法术伤害-20%；【协防干员】伤害提升至120%，精锐【协防干员】造成伤害提升至140%",
+    "sourceUrl": "https://prts.wiki/w/%E5%8D%AB%E6%88%8D%E5%8D%8F%E8%AE%AE%C2%B7%E8%A7%84%E7%A8%8B/PRTS%E7%9B%9F%E7%BA%A6%E8%AE%B0%E5%BD%95",
     "iconPath": "icons/b59684178cdfceda95aed05b.png"
+  },
+  {
+    "id": "7b627e62975cd226",
+    "name": "独行",
+    "category": "additional",
+    "activationCount": 1,
+    "effectText": "<在场1名【独行】干员>【独行】干员攻击力和生命值+60%，初始技力+15（在场2名及以上【独行】干员时失效）",
+    "sourceUrl": "https://prts.wiki/w/%E5%8D%AB%E6%88%8D%E5%8D%8F%E8%AE%AE%C2%B7%E8%A7%84%E7%A8%8B/PRTS%E7%9B%9F%E7%BA%A6%E8%AE%B0%E5%BD%95",
+    "iconPath": "icons/0d682cdaee3c44e9c80ceb79.png"
+  },
+  {
+    "id": "99e48ad64ca97da2",
+    "name": "绝技",
+    "category": "additional",
+    "activationCount": 2,
+    "effectText": "<在场2名精锐状态的干员>精锐状态的干员攻击力+30%\n<在场5名精锐状态的干员>精锐状态的干员技力消耗-30%\n（所有干员的精锐状态均可激活盟约）",
+    "sourceUrl": "https://prts.wiki/w/%E5%8D%AB%E6%88%8D%E5%8D%8F%E8%AE%AE%C2%B7%E8%A7%84%E7%A8%8B/PRTS%E7%9B%9F%E7%BA%A6%E8%AE%B0%E5%BD%95",
+    "iconPath": "icons/632f9108313d230f3a76ce94.png"
+  },
+  {
+    "id": "a4768faecb385ed9",
+    "name": "聚合",
+    "category": "additional",
+    "activationCount": 2,
+    "effectText": "【聚合】干员攻击范围内的我方单位每秒回复攻击力(16+0.12×层数)%的生命值和攻击力(8+0.06×层数)%的元素损伤\n<在场3名【聚合】干员>【聚合】干员攻击范围内的所有干员获得(15+0.08×层数)%的庇护",
+    "sourceUrl": "https://prts.wiki/w/%E5%8D%AB%E6%88%8D%E5%8D%8F%E8%AE%AE%C2%B7%E8%A7%84%E7%A8%8B/PRTS%E7%9B%9F%E7%BA%A6%E8%AE%B0%E5%BD%95",
+    "iconPath": "icons/a25f1e5e29833584f141a41d.png"
+  },
+  {
+    "id": "73e912dcad85d7c1",
+    "name": "奥术",
+    "category": "additional",
+    "activationCount": 2,
+    "effectText": "【奥术】干员造成伤害时额外附加一次(20+0.4×层数)%攻击力的法术伤害\n<在场3名不同【奥术】干员>场上所有敌人每次受到伤害时法术抗性-1（至多(-30-0.05×层数)）；【奥术】干员攻击范围内的敌人隐匿效果失效",
+    "sourceUrl": "https://prts.wiki/w/%E5%8D%AB%E6%88%8D%E5%8D%8F%E8%AE%AE%C2%B7%E8%A7%84%E7%A8%8B/PRTS%E7%9B%9F%E7%BA%A6%E8%AE%B0%E5%BD%95",
+    "iconPath": "icons/2b7ccc87fec5ab38520f4dfc.png"
   }
 ]
