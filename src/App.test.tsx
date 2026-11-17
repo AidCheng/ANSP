@@ -20,3 +20,15 @@ describe('theme',()=>{
   expect(app?.getAttribute('data-theme')).toBe('light');
  });
 });
+
+describe('covenant directory',()=>{
+ it('preserves category and search when selecting a covenant',async()=>{
+  render(<App/>); await screen.findByText('真实效果测试');
+  fireEvent.click(screen.getByRole('button',{name:'附加'}));
+  fireEvent.change(screen.getByLabelText('搜索盟约'),{target:{value:'附加乙'}});
+  fireEvent.click(screen.getByRole('button',{name:'◇附加乙附加盟约'}));
+  expect(screen.getByRole('button',{name:'附加'}).classList.contains('active')).toBe(true);
+  expect((screen.getByLabelText('搜索盟约') as HTMLInputElement).value).toBe('附加乙');
+  expect(screen.getByText('附加效果测试')).toBeTruthy();
+ });
+});
