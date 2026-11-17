@@ -61,3 +61,11 @@
 .operator-card .card-details small{margin:3px 0 0;line-height:1.4}
 .card-details .card-bonds{margin-top:5px}
 @media(max-width:700px){.grid{grid-template-columns:repeat(auto-fill,minmax(110px,1fr))}}
+
+/* Blue denotes core covenants; amber denotes additional covenants. */
+.card-bond.core,.category-badge.core{background:#dceeff;color:#15558a}
+.card-bond.additional,.category-badge.additional{background:#fff0d1;color:#80500a}
+.tag-wrap.core .tag,.tag-wrap.core .tag-add{background:#dceeff;color:#15558a}
+.tag-wrap.additional .tag,.tag-wrap.additional .tag-add{background:#fff0d1;color:#80500a}
+[data-theme="dark"] .card-bond.core,[data-theme="dark"] .category-badge.core,[data-theme="dark"] .tag-wrap.core .tag,[data-theme="dark"] .tag-wrap.core .tag-add{background:#1d4561;color:#d3edff}
+[data-theme="dark"] .card-bond.additional,[data-theme="dark"] .category-badge.additional,[data-theme="dark"] .tag-wrap.additional .tag,[data-theme="dark"] .tag-wrap.additional .tag-add{background:#59421e;color:#ffdfa0}
